@@ -1,0 +1,134 @@
+﻿@page "/customer_details/{Id:long}/{Key}"
+
+@inject CustomerService CustomerService
+@inject IJSRuntime JSRuntime
+@inject NavigationManager NavigationManager
+@inject ISessionBridgeVmManager SessionBridgeVmManager
+@inject IConfigReader ConfigReader
+
+<body>
+
+    @if (customer == null)
+    {
+        <p><em>Loading...</em></p>
+
+        <a href="home">Home</a>
+    }
+    else
+    {
+        <h5>@customer.CustomerName</h5>
+        <br />
+
+        <table class="table table-borderless">
+            <thead>
+                <tr>
+                    <th></th>
+                    <th></th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>FirstName</td>
+                    <td>@customer.Firstname</td>
+                </tr>
+                <tr>
+                    <td>LastName</td>
+                    <td>@customer.Surname</td>
+                </tr>
+                <tr>
+                    <td>Phone Number</td>
+                    <td>@customer.PhoneNumber</td>
+                </tr>
+                <tr>
+                    <td>Checked</td>
+                    <td>
+                        @customer.Checked
+                    </td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td>
+                        @if (customer.Checked)
+                        {
+                            <label>
+                                Checked by <span class="text-dark">@customer.CheckedBy</span>
+                                <span> on </span>
+                                <span class="text-dark">@customer.DateChecked.GetValueOrDefault().ToShortDateString()</span>
+                            </label>
+                        }
+                    </td>
+                </tr>
+                <tr>
+                    <td>Approved</td>
+                    <td>
+                        @customer.Approved
+                    </td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td>
+                        @if (customer.Approved)
+                        {
+                            <label>
+                                Approved by <span class="text-dark">@customer.ApprovedBy</span>
+                                <span> on </span>
+                                <span class="text-dark">@customer.DateApproved.GetValueOrDefault().ToShortDateString()</span>
+                            </label>
+                        }
+                    </td>
+                </tr>
+                @*<tr>
+                    <td>Denied</td>
+                    <td>
+                        @customer.Denied
+                    </td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td>
+                        @if (customer.Denied)
+                        {
+                            <label>
+                                Denied by <span class="text-dark">@customer.DeniedBy</span>
+                                <span> on </span>
+                                <span class="text-dark">@customer.DateDenied.GetValueOrDefault().ToShortDateString()</span>
+                            </label>
+                        }
+                    </td>
+                </tr>*@
+            </tbody>
+        </table>
+    }
+
+</body>
+
+@code {
+
+    [Parameter]
+    public long Id { get; set; }
+
+    [Parameter]
+    public string Key { get; set; }
+
+    CustomerVm customer;
+
+    protected override async Task OnInitializedAsync()
+    {
+
+        SessionBridgeVm sessionBridge = SessionBridgeVmManager.GetFromBasket(Key);
+        if (sessionBridge == null)
+        {
+            NavigationManager.NavigateTo(ConfigReader.Read("VasPortalUrl"));
+            return;
+        }
+
+        if (sessionBridge.RoleId != 1 && sessionBridge.RoleId != 2)
+        {
+            NavigationManager.NavigateTo("access_denied");
+            return;
+        }
+
+        customer = await CustomerService.GetCustomerAsync(Convert.ToString(Id));
+    }
+
+}

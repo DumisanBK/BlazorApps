@@ -1,0 +1,93 @@
+﻿@page "/"
+@page "/home/{Key}"
+
+@inject ISessionChecker SessionChecker
+@inject IConfigReader ConfigReader
+@inject ISessionBridgeVmManager SessionBridgeVmManager
+@inject NavigationManager NavigationManager
+@inject IPageAccessChecker PageAccessChecker
+@inject IJSRuntime JSRuntime
+@inject ISessionLifeChecker SessionLifeChecker
+
+<body>
+    <div class="col-md-12">
+        @if (roleId < 1)
+        {
+            <p><em>Loading...</em></p>
+        }
+        else
+        {
+            <h5>Hello, @fullname</h5>
+
+            <div class="card card-red">
+                <div class="card-header">
+                    <span class="oi oi-pencil mr-2" aria-hidden="true"></span>
+                    <strong>Welcome to Bancassurance</strong>
+                </div>
+                <div class="card-body">
+                    <span class="text-nowrap">
+                        Start by viewing
+                        @if (roleId == 2)
+                        {
+                            <a class="font-weight-bold" href="members/@Key">members</a>
+                        }
+                        else
+                        {
+                            <a class="font-weight-bold" href="unsubscriptions/@Key">unsubscription requests</a>
+                            <span> or </span>
+                            <a class="font-weight-bold" href="white_listed_accounts/@Key">white listed accounts</a>
+                            <span> or </span>
+                            <br />
+                            <a class="font-weight-bold" href="all_settings/@Key">settings</a>
+                        }
+                    </span>
+                </div>
+                <div class="card-footer"></div>
+            </div>
+        }
+    </div>
+</body>
+
+@code {
+
+    int roleId;
+    string fullname;
+
+    [Parameter]
+    public string Key { get; set; }
+
+    protected override async Task OnInitializedAsync()
+    {
+        bool missing = SessionChecker.IsSessionMissing(Key);
+        bool expired = SessionLifeChecker.IsExpired(Key);
+
+        if (missing || expired)
+        {
+            NavigationManager.NavigateTo(ConfigReader.Read("VasPortalUrl"));
+            return;
+        }
+
+        if (!await PageAccessChecker.HasAccess("index", Key))
+        {
+            NavigationManager.NavigateTo($"access_denied/{Key}");
+            return;
+        }
+
+        var sessionBridge = SessionBridgeVmManager.GetFromBasket(Key);
+        if (sessionBridge == null)
+        {
+            NavigationManager.NavigateTo(ConfigReader.Read("VasPortalUrl"));
+            return;
+        }
+
+        roleId = sessionBridge.RoleId;
+        fullname = sessionBridge.FullName ?? string.Empty;
+    }
+
+    protected override async Task OnAfterRenderAsync(bool firstRender)
+    {
+        if (string.IsNullOrEmpty(Key)) return;
+
+        await JSRuntime.InvokeAsync<object>("BufferUrlKey", $"{Key}");
+    }
+}

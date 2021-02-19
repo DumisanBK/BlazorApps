@@ -1,0 +1,33 @@
+﻿@page "/access_denied/{Key}"
+
+    <body>
+
+        <div class="col-lg-12">
+            <div class="card card-red">
+                <div class="card-header">
+                    <h5 class="card-title">
+                        Access Denied
+                    </h5>
+                </div>
+                <div class="card-body">
+                    <p>
+                        <span class="oi oi-pencil mr-2" aria-hidden="true"></span>
+                        <span class="text-nowrap">
+                            You do not have privileges to the requested Resource !                           
+                        </span>
+                    </p>
+                </div>
+                <div class="card-footer">
+                    <a class="font-weight-bold" href="home/@Key">home</a>
+                </div>
+            </div>
+        </div>
+
+    </body>
+
+@code {
+
+    [Parameter]
+    public string Key { get; set; }
+
+}

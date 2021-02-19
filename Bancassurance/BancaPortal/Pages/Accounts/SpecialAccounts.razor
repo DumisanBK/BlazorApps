@@ -1,0 +1,92 @@
+﻿@page "/white_listed_accounts/{Key}"
+
+@inject IAccountSettingsService AccountSettingsService
+@inject NavigationManager NavigationManager
+@inject IJSRuntime JSRuntime
+@inject ISessionChecker SessionChecker
+@inject IConfigReader ConfigReader
+@inject IPageAccessChecker PageAccessChecker
+@inject ISessionLifeChecker SessionLifeChecker
+
+<body>
+    <div class="col-lg-12">
+        <div class="card card-red">
+            @if (accounts == null)
+            {
+                <Spinner></Spinner>
+            }
+            else
+            {
+                <div class="card-header">
+                    <h5 class="card-title">Special Accounts</h5>
+                </div>
+                <div class="card-body">
+                    <a href="white_list_account/@Key" role="button" class="btn btn-primary">Add Special Account</a>
+                    <div class="mt-2"></div>
+                    <table id="accountsTable" class="table table-striped table-bordered" style="width:100%">
+                        <thead>
+                            <tr>
+                                <th>Account Name</th>
+                                <th>Account Number</th>
+                                <th>DateCreated</th>
+                                <th></th>
+                                <th></th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            @foreach (var account in accounts)
+                            {
+                                <tr>
+                                    <td>@account.AccountName</td>
+                                    <td>@account.AccountNumber</td>
+                                    <td>@account.DateCreated</td>
+                                    <td>
+                                        <a href="remove_special_account/@account.Id/@Key" role="button" class="btn btn-danger">Remove</a>
+                                    </td>
+                                </tr>
+                            }
+                        </tbody>
+                    </table>
+                </div>
+                <div class="card-footer">
+                    <a href="home/@Key">Back</a>
+                </div>
+            }
+        </div>
+    </div>
+</body>
+
+@code {
+
+    [Parameter]
+    public string Key { get; set; }
+
+    List<SpecialAccountVm> accounts;
+
+    protected override async Task OnInitializedAsync()
+    {
+        if (SessionChecker.IsSessionMissing(Key) || SessionLifeChecker.IsExpired(Key))
+        {
+            NavigationManager.NavigateTo(ConfigReader.Read("VasPortalUrl"));
+            return;
+        }
+
+        if (!await PageAccessChecker.HasAccess("white_listed_accounts", Key))
+        {
+            NavigationManager.NavigateTo($"access_denied/{Key}");
+            return;
+        }
+
+        accounts = await AccountSettingsService.GetAccountSettingsAsync();
+    }
+
+    protected override void OnAfterRender(bool firstRender)
+    {
+        ActivateTable();
+    }
+
+    private void ActivateTable()
+    {
+        JSRuntime.InvokeAsync<object>("ActivateDataTable", "#accountsTable");
+    }
+}

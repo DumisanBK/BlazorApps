@@ -1,0 +1,109 @@
+﻿@page "/remove_special_account/{Id:int}/{Key}"
+
+@inject IAccountSettingsService AccountSettingsService
+@inject ISessionBridgeVmManager SessionBridgeVmManager
+@inject NavigationManager NavigationManager
+@inject IJSRuntime JSRuntime
+@inject ISessionChecker SessionChecker
+@inject IConfigReader ConfigReader
+@inject IPageAccessChecker PageAccessChecker
+@inject ISessionLifeChecker SessionLifeChecker
+@inject IPortalUserActionsService ActionsService
+
+<body>
+    <div class="col-lg-12">
+        <!-- /.card -->
+        <div class="card card-red">
+            @if (specialAccount == null)
+            {
+                <Spinner></Spinner>
+            }
+            else
+            {
+                <div class="card-header">
+                    <h5 class="card-title">Remove special account: <span class="text-white">@specialAccount.AccountName</span></h5>
+                </div>
+                <!-- /.card-header -->
+
+                <div class="card-body">
+                    <table id="specialAccountTable" class="table" style="width:100%">
+                        <thead>
+                            <tr>
+                                <th></th>
+                                <th></th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Account Name</td>
+                                <td>@specialAccount.AccountName</td>
+                            </tr>
+                            <tr>
+                                <td>Account Number</td>
+                                <td>@specialAccount.AccountNumber</td>
+                            </tr>
+                            <tr>
+                                <td>Date Created</td>
+                                <td>@specialAccount.DateCreated</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <div class="card-footer">
+                    <button class="btn btn-danger" @onclick="() => RemoveSpecialAccountAsync(specialAccount.Id)">Remove</button>
+                    <a href="white_listed_accounts/@Key" role="button" class="btn btn-link float-right">Back</a>
+                </div>
+            }
+        </div>
+    </div>
+</body>
+
+@code {
+    [Parameter]
+    public int Id { get; set; }
+    [Parameter]
+    public string Key { get; set; }
+
+    SpecialAccountVm specialAccount;
+
+    protected override async Task OnInitializedAsync()
+    {
+        if (SessionChecker.IsSessionMissing(Key) || SessionLifeChecker.IsExpired(Key))
+        {
+            NavigationManager.NavigateTo(ConfigReader.Read("VasPortalUrl"));
+            return;
+        }
+
+        if (!await PageAccessChecker.HasAccess("remove_special_account", Key))
+        {
+            NavigationManager.NavigateTo($"access_denied/{Key}");
+        }
+
+        await FetchSpecialAccount();
+    }
+
+
+    protected async Task FetchSpecialAccount()
+    {
+        specialAccount = await AccountSettingsService.GetAccountSettingAsync(Id);
+
+        if (specialAccount == null)
+        {
+            NavigationManager.NavigateTo($"remove_special_account/{Key}");
+            return;
+        }
+    }
+
+    protected async Task RemoveSpecialAccountAsync(int Id)
+    {
+        bool removed = await AccountSettingsService.RemoveAccountSettingsAsync(Id);
+
+        string action = removed ? $"Removed special account" : "Tried to remove special account";
+
+        await ActionsService.AddAsync(SessionBridgeVmManager.GetFromBasket(Key),
+                action, specialAccount.AccountNumber);
+
+        NavigationManager.NavigateTo($"operation_successful/2/{Key}");
+    }
+
+}

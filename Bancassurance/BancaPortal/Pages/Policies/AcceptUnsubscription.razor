@@ -1,0 +1,107 @@
+﻿@page "/accept_unsubscription/{Id:long}/{Key}"
+
+@inject IMemberService MemberService
+@inject IUnsubscriptionService UnsubscriptionService
+@inject ISessionBridgeVmManager SessionBridgeVmManager
+@inject IUnsubscriptionService UnsubscriptionService
+@inject NavigationManager NavigationManager
+@inject IJSRuntime JSRuntime
+@inject ISessionChecker SessionChecker
+@inject IConfigReader ConfigReader
+@inject IPageAccessChecker PageAccessChecker
+@inject ISessionLifeChecker SessionLifeChecker
+
+<body>
+    <div class="col-lg-12">
+        <div class="card card-red">
+            @if (member == null)
+            {
+                <Spinner></Spinner>
+            }
+            else
+            {
+                <div class="card-header">
+                    <h5 class="card-title">Accept unsubscription of <span class="text-white">@member.CustomerName</span></h5>
+                </div>
+                <div class="card-body">
+                    <table id="memberTable" class="table" style="width:100%">
+                        <thead>
+                            <tr>
+                                <th></th>
+                                <th></th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>First Name</td>
+                                <td>@member.FirstName</td>
+                            </tr>
+                            <tr>
+                                <td>Last Name</td>
+                                <td>@member.SurName</td>
+                            </tr>
+                            <tr>
+                                <td>Phone Number</td>
+                                <td>@member.PhoneNumber</td>
+                            </tr>
+                            <tr>
+                                <td>Account</td>
+                                <td>@member.AccountNumber</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <div class="card-footer">
+                    <button class="btn btn-primary" @onclick="() => AcceptUnsubscriptionAsync(member.Id)">Accept</button>
+                    <a href="unsubscriptions/@Key" role="button" class="btn btn-link">Back</a>
+                </div>
+            }
+        </div>
+    </div>
+</body>
+
+@code {
+    [Parameter]
+    public long Id { get; set; }
+    [Parameter]
+    public string Key { get; set; }
+
+    MemberVm member;
+
+    protected override async Task OnInitializedAsync()
+    {
+        if (SessionChecker.IsSessionMissing(Key) || SessionLifeChecker.IsExpired(Key))
+        {
+            NavigationManager.NavigateTo(ConfigReader.Read("VasPortalUrl"));
+            return;
+        }
+
+        if (!await PageAccessChecker.HasAccess("accept_unsubscription", Key))
+        {
+            NavigationManager.NavigateTo($"access_denied/{Key}");
+        }
+
+        await FetchMemberAsync(Id);
+    }
+
+
+    protected async Task FetchMemberAsync(long Id)
+    {
+        member = await MemberService.GetMemberAsync(Id);
+
+        if (member == null)
+        {
+            NavigationManager.NavigateTo($"policies/{Key}");
+            return;
+        }
+    }
+
+    protected async Task AcceptUnsubscriptionAsync(long memberId)
+    {
+        bool authorized = await UnsubscriptionService.AuthorizeRequestAsync(memberId,
+            SessionBridgeVmManager.GetFromBasket(Key).Username);
+
+        NavigationManager.NavigateTo($"operation_successful/6/{Key}");
+    }
+
+}

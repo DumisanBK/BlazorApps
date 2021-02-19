@@ -1,0 +1,22 @@
+﻿@page "/operation_successful"
+@page "/operation_successful/{page:int}"
+@page "/operation_successful/{page:int}/{Key}"
+
+@inject NavigationManager NavigationManager
+
+<body></body>
+
+@code {
+
+    [Parameter]
+    public int page { get; set; }
+
+    [Parameter]
+    public string Key { get; set; }
+
+    protected override void OnInitialized()
+    {
+        NavigationManager.NavigateTo($"{PageUtils.GetPage(page)}/{Key}");
+    }
+
+}

@@ -1,0 +1,44 @@
+﻿@page "/SignIn"
+@page "/SignIn/{Id}"
+
+@inject SessionBridgeService SessionBridgeService
+@inject ISessionBridgeVmManager SessionBridgeVmManager
+@inject NavigationManager NavigationManager
+@inject IConfigReader ConfigReader
+
+<body>
+</body>
+
+@code {
+
+    [Parameter]
+    public string Id { get; set; }
+
+    SessionBridgeVm sessionBridge = null;
+
+    protected override async Task OnInitializedAsync()
+    {
+        if (string.IsNullOrEmpty(Id))
+        {
+            NavigationManager.NavigateTo(ConfigReader.Read("VasPortalUrl"));
+            return;
+        }
+
+        sessionBridge = SessionBridgeVmManager.GetFromBasket(Id);
+
+        if (sessionBridge == null)
+        {
+            sessionBridge = await SessionBridgeService.ValidateId(Id);
+
+            if (sessionBridge == null)
+            {
+                NavigationManager.NavigateTo(ConfigReader.Read("VasPortalUrl"));
+                return;
+            }
+
+            SessionBridgeVmManager.PutInBasket(sessionBridge);
+            NavigationManager.NavigateTo($"home/{Id}");
+        }
+    }
+
+}

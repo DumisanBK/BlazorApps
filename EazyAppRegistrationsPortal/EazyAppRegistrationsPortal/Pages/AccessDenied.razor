@@ -1,0 +1,19 @@
+﻿@page "/access_denied/{Key}"
+
+    <body>
+        <div class="alert alert-danger mt-4" role="alert">
+            <span class="oi oi-pencil mr-2" aria-hidden="true"></span>
+            <strong>Access Denied</strong>
+
+            <span class="text-nowrap">
+                You do not have privileges to the requested Resource!
+            </span>
+        </div>
+    </body>
+
+@code {
+
+    [Parameter]
+    public string Key { get; set; }
+
+}

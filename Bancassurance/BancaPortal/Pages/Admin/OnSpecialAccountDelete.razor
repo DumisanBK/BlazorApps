@@ -1,0 +1,97 @@
+﻿@page "/on_special_account_delete_setting/{Key}"
+
+@inject IJSRuntime JSRuntime
+@inject AutoMapper.IMapper Mapper
+@inject ISessionChecker SessionChecker
+@inject IConfigReader ConfigReader
+@inject IPageAccessChecker PageAccessChecker
+@inject NavigationManager NavigationManager
+@inject ISystemSettingsService SystemSettingsService
+@inject ISessionLifeChecker SessionLifeChecker
+
+<body>
+    <div class="col-lg-12">
+        @if (!added)
+        {
+            <div class="alert alert-danger alert-dismissible">
+                <button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>
+                <h5><i class="icon fas fa-ban"></i> Alert!</h5>
+                setting not applied, please try again later
+            </div>
+        }
+        <!-- /.card -->
+        <!-- Horizontal Form -->
+        <div class="card card-red">
+            <div class="card-header">
+                <h5 class="card-title">Settings</h5>
+            </div>
+            <!-- /.card-header -->
+            <!-- form start -->
+            <EditForm Model="@_settings" OnValidSubmit="HandleValidSubmit" Class="form-horizontal">
+                <DataAnnotationsValidator />
+                <div class="card-body">
+                    <div class="form-group row">
+                        <label></label>
+                        <div class="col-sm-10">
+                            <ValidationSummary />
+                        </div>
+                    </div>
+
+                    <div class="form-group row">
+                        <label for="ShowDateOnAdd" class="col-sm-2 col-form-label">@_settings.Description</label>
+                        <div class="col-sm-2">
+                            <InputCheckbox @bind-Value="_settings.Value" id="ShowDateOnAdd" class="form-check-label" />
+                        </div>
+                    </div>
+                </div>
+                <!-- /.card-body -->
+                <div class="card-footer">
+                    <button type="submit" class="btn btn-primary">Apply</button>
+                    <a href="all_settings/@Key" class="float-right">Back</a>
+                </div>
+                <!-- /.card-footer -->
+            </EditForm>
+        </div>
+    </div>
+</body>
+
+@code {
+
+    [Parameter]
+    public string Key { get; set; }
+
+    private bool added = true;
+
+    SystemSettingsVm _settings = new SystemSettingsVm();
+
+    protected override async Task OnInitializedAsync()
+    {
+        if (SessionChecker.IsSessionMissing(Key) || SessionLifeChecker.IsExpired(Key))
+        {
+            NavigationManager.NavigateTo(ConfigReader.Read("VasPortalUrl"));
+            return;
+        }
+
+        if (!await PageAccessChecker.HasAccess("settings", Key))
+        {
+            NavigationManager.NavigateTo($"access_denied/{Key}");
+        }
+
+        var onDeleteSetting = await SystemSettingsService.GetSystemSettingByCodeAsync(SystemSettingsExpression.Filter(3));
+
+        if (onDeleteSetting == null) return;
+
+        _settings = onDeleteSetting;
+    }
+
+    protected async Task HandleValidSubmit()
+    {
+        added = await SystemSettingsService.UpdateSystemSettingAsync(Mapper.Map<SystemSettings>(_settings));
+
+        if (added)
+        {
+            NavigationManager.NavigateTo($"home/{Key}");
+            return;
+        }
+    }
+}

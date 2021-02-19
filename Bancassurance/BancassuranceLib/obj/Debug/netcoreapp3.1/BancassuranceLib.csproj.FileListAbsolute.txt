@@ -1,0 +1,45 @@
+C:\Users\kadzitaye.m\source\repos\Bancassurance\BancassuranceLib\bin\Debug\netcoreapp3.1\BancassuranceLib.deps.json
+C:\Users\kadzitaye.m\source\repos\Bancassurance\BancassuranceLib\bin\Debug\netcoreapp3.1\BancassuranceLib.dll
+C:\Users\kadzitaye.m\source\repos\Bancassurance\BancassuranceLib\obj\Debug\netcoreapp3.1\BancassuranceLib.AssemblyInfoInputs.cache
+C:\Users\kadzitaye.m\source\repos\Bancassurance\BancassuranceLib\obj\Debug\netcoreapp3.1\BancassuranceLib.AssemblyInfo.cs
+C:\Users\kadzitaye.m\source\repos\Bancassurance\BancassuranceLib\bin\Debug\netcoreapp3.1\BancassuranceLib.runtimeconfig.json
+C:\Users\kadzitaye.m\source\repos\Bancassurance\BancassuranceLib\bin\Debug\netcoreapp3.1\BancassuranceLib.runtimeconfig.dev.json
+C:\Users\kadzitaye.m\source\repos\Bancassurance\BancassuranceLib\bin\Debug\netcoreapp3.1\BancassuranceLib.pdb
+C:\Users\kadzitaye.m\source\repos\Bancassurance\BancassuranceLib\obj\Debug\netcoreapp3.1\BancassuranceLib.csproj.CoreCompileInputs.cache
+C:\Users\kadzitaye.m\source\repos\Bancassurance\BancassuranceLib\obj\Debug\netcoreapp3.1\BancassuranceLib.dll
+C:\Users\kadzitaye.m\source\repos\Bancassurance\BancassuranceLib\obj\Debug\netcoreapp3.1\BancassuranceLib.pdb
+C:\Users\kadzitaye.m\source\repos\Bancassurance\BancassuranceLib\obj\Debug\netcoreapp3.1\BancassuranceLib.genruntimeconfig.cache
+C:\Users\kadzitaye.m\source\repos\bancassurance\Bancassurance\BancassuranceLib\bin\Debug\netcoreapp3.1\BancassuranceLib.deps.json
+C:\Users\kadzitaye.m\source\repos\bancassurance\Bancassurance\BancassuranceLib\bin\Debug\netcoreapp3.1\BancassuranceLib.runtimeconfig.json
+C:\Users\kadzitaye.m\source\repos\bancassurance\Bancassurance\BancassuranceLib\bin\Debug\netcoreapp3.1\BancassuranceLib.runtimeconfig.dev.json
+C:\Users\kadzitaye.m\source\repos\bancassurance\Bancassurance\BancassuranceLib\bin\Debug\netcoreapp3.1\BancassuranceLib.dll
+C:\Users\kadzitaye.m\source\repos\bancassurance\Bancassurance\BancassuranceLib\bin\Debug\netcoreapp3.1\BancassuranceLib.pdb
+C:\Users\kadzitaye.m\source\repos\bancassurance\Bancassurance\BancassuranceLib\obj\Debug\netcoreapp3.1\BancassuranceLib.AssemblyInfoInputs.cache
+C:\Users\kadzitaye.m\source\repos\bancassurance\Bancassurance\BancassuranceLib\obj\Debug\netcoreapp3.1\BancassuranceLib.AssemblyInfo.cs
+C:\Users\kadzitaye.m\source\repos\bancassurance\Bancassurance\BancassuranceLib\obj\Debug\netcoreapp3.1\BancassuranceLib.csproj.CoreCompileInputs.cache
+C:\Users\kadzitaye.m\source\repos\bancassurance\Bancassurance\BancassuranceLib\obj\Debug\netcoreapp3.1\BancassuranceLib.dll
+C:\Users\kadzitaye.m\source\repos\bancassurance\Bancassurance\BancassuranceLib\obj\Debug\netcoreapp3.1\BancassuranceLib.pdb
+C:\Users\kadzitaye.m\source\repos\bancassurance\Bancassurance\BancassuranceLib\obj\Debug\netcoreapp3.1\BancassuranceLib.genruntimeconfig.cache
+C:\Users\kadzitaye.m\Documents\Visual Studio 2019\Projects\Bancassurance\Bancassurance\BancassuranceLib\bin\Debug\netcoreapp3.1\BancassuranceLib.deps.json
+C:\Users\kadzitaye.m\Documents\Visual Studio 2019\Projects\Bancassurance\Bancassurance\BancassuranceLib\bin\Debug\netcoreapp3.1\BancassuranceLib.runtimeconfig.json
+C:\Users\kadzitaye.m\Documents\Visual Studio 2019\Projects\Bancassurance\Bancassurance\BancassuranceLib\bin\Debug\netcoreapp3.1\BancassuranceLib.runtimeconfig.dev.json
+C:\Users\kadzitaye.m\Documents\Visual Studio 2019\Projects\Bancassurance\Bancassurance\BancassuranceLib\bin\Debug\netcoreapp3.1\BancassuranceLib.dll
+C:\Users\kadzitaye.m\Documents\Visual Studio 2019\Projects\Bancassurance\Bancassurance\BancassuranceLib\bin\Debug\netcoreapp3.1\BancassuranceLib.pdb
+C:\Users\kadzitaye.m\Documents\Visual Studio 2019\Projects\Bancassurance\Bancassurance\BancassuranceLib\obj\Debug\netcoreapp3.1\BancassuranceLib.AssemblyInfoInputs.cache
+C:\Users\kadzitaye.m\Documents\Visual Studio 2019\Projects\Bancassurance\Bancassurance\BancassuranceLib\obj\Debug\netcoreapp3.1\BancassuranceLib.AssemblyInfo.cs
+C:\Users\kadzitaye.m\Documents\Visual Studio 2019\Projects\Bancassurance\Bancassurance\BancassuranceLib\obj\Debug\netcoreapp3.1\BancassuranceLib.csproj.CoreCompileInputs.cache
+C:\Users\kadzitaye.m\Documents\Visual Studio 2019\Projects\Bancassurance\Bancassurance\BancassuranceLib\obj\Debug\netcoreapp3.1\BancassuranceLib.dll
+C:\Users\kadzitaye.m\Documents\Visual Studio 2019\Projects\Bancassurance\Bancassurance\BancassuranceLib\obj\Debug\netcoreapp3.1\BancassuranceLib.pdb
+C:\Users\kadzitaye.m\Documents\Visual Studio 2019\Projects\Bancassurance\Bancassurance\BancassuranceLib\obj\Debug\netcoreapp3.1\BancassuranceLib.genruntimeconfig.cache
+C:\Users\kaunda.dum\Documents\Visual Studio 2019\Projects\bancassurance\Bancassurance\BancassuranceLib\bin\Debug\netcoreapp3.1\BancassuranceLib.deps.json
+C:\Users\kaunda.dum\Documents\Visual Studio 2019\Projects\bancassurance\Bancassurance\BancassuranceLib\bin\Debug\netcoreapp3.1\BancassuranceLib.runtimeconfig.json
+C:\Users\kaunda.dum\Documents\Visual Studio 2019\Projects\bancassurance\Bancassurance\BancassuranceLib\bin\Debug\netcoreapp3.1\BancassuranceLib.runtimeconfig.dev.json
+C:\Users\kaunda.dum\Documents\Visual Studio 2019\Projects\bancassurance\Bancassurance\BancassuranceLib\bin\Debug\netcoreapp3.1\BancassuranceLib.dll
+C:\Users\kaunda.dum\Documents\Visual Studio 2019\Projects\bancassurance\Bancassurance\BancassuranceLib\bin\Debug\netcoreapp3.1\BancassuranceLib.pdb
+C:\Users\kaunda.dum\Documents\Visual Studio 2019\Projects\bancassurance\Bancassurance\BancassuranceLib\obj\Debug\netcoreapp3.1\BancassuranceLib.AssemblyInfoInputs.cache
+C:\Users\kaunda.dum\Documents\Visual Studio 2019\Projects\bancassurance\Bancassurance\BancassuranceLib\obj\Debug\netcoreapp3.1\BancassuranceLib.AssemblyInfo.cs
+C:\Users\kaunda.dum\Documents\Visual Studio 2019\Projects\bancassurance\Bancassurance\BancassuranceLib\obj\Debug\netcoreapp3.1\BancassuranceLib.csproj.CoreCompileInputs.cache
+C:\Users\kaunda.dum\Documents\Visual Studio 2019\Projects\bancassurance\Bancassurance\BancassuranceLib\obj\Debug\netcoreapp3.1\BancassuranceLib.dll
+C:\Users\kaunda.dum\Documents\Visual Studio 2019\Projects\bancassurance\Bancassurance\BancassuranceLib\obj\Debug\netcoreapp3.1\BancassuranceLib.pdb
+C:\Users\kaunda.dum\Documents\Visual Studio 2019\Projects\bancassurance\Bancassurance\BancassuranceLib\obj\Debug\netcoreapp3.1\BancassuranceLib.genruntimeconfig.cache
+C:\Users\kaunda.dum\Documents\Visual Studio 2019\Projects\bancassurance\Bancassurance\BancassuranceLib\obj\Debug\netcoreapp3.1\BancassuranceLib.csprojAssemblyReference.cache

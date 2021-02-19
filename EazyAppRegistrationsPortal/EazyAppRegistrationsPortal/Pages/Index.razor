@@ -1,0 +1,58 @@
+﻿@page "/{Id}"
+@page "/home/{Id}"
+@page "/index/{Id}"
+
+@inject IConfigReader ConfigReader
+@inject ISessionBridgeVmManager SessionBridgeVmManager
+@inject NavigationManager NavigationManager
+@inject IJSRuntime JSRuntime
+
+<body>
+    <h5>Hello, @fullname</h5>
+
+    <div class="alert alert-secondary mt-4" role="alert">
+        <span class="oi oi-pencil mr-2" aria-hidden="true"></span>
+        <strong>Welcome to Eazy App Registration Portal</strong>
+
+        <span class="text-nowrap">
+            Start by viewing
+            @if (roleId == 2)
+            {
+                <a class="font-weight-bold" href="uncheckedapprovals/@Id">Unchecked approvals</a>
+            }
+            else
+            {
+                <a class="font-weight-bold" href="checkedapprovals/@Id">Checked approvals</a>
+            }
+        </span>
+    </div>
+</body>
+
+@code {
+
+    [Parameter]
+    public string Id { get; set; }
+
+    int roleId;
+    string fullname;
+
+    protected override async Task OnInitializedAsync()
+    {
+        SessionBridgeVm sessionBridge = SessionBridgeVmManager.GetFromBasket(Id);
+        if (sessionBridge == null)
+        {
+            NavigationManager.NavigateTo(ConfigReader.Read("VasPortalUrl"));
+            return;
+        }
+
+        roleId = sessionBridge.RoleId;
+        fullname = sessionBridge.FullName ?? string.Empty;
+    }
+
+    protected override async Task OnAfterRenderAsync(bool firstRender)
+    {
+        if (Id.ToString() == ConfigReader.Read("DefaultGuid")) return;
+
+        await JSRuntime.InvokeAsync<object>("BufferUrlKey", $"{Id}");
+    }
+}

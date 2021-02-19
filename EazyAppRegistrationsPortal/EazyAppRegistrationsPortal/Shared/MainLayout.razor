@@ -1,0 +1,52 @@
+﻿@inherits LayoutComponentBase
+
+@inject IConfigReader ConfigReader
+@inject ISessionBasket SessionBasket
+@inject NavigationManager NavigationManager
+@inject IJSRuntime JSRuntime
+
+<div class="sidebar">
+    <NavMenu />
+</div>
+
+<div class="main">
+    <div class="top-row px-4">
+        <button class="btn btn-link" @onclick="() => DestroySession()">Sign Out</button>
+    </div>
+
+    <div class="content px-4">
+        @Body
+    </div>
+</div>
+
+@code {
+
+    string key;
+
+    protected override async Task OnAfterRenderAsync(bool firstRender)
+    {
+        try
+        {
+            var keyAsObject = await JSRuntime.InvokeAsync<object>("GetUrlKey");
+
+            if (keyAsObject == null) return;
+
+            key = Convert.ToString(keyAsObject);
+        }
+        catch (Exception)
+        {
+            key = null;
+        }
+    }
+
+    private void DestroySession()
+    {
+        if (!string.IsNullOrEmpty(key))
+        {
+            SessionBasket.Remove(key);
+        }
+
+        NavigationManager.NavigateTo(ConfigReader.Read("VasPortalUrl"));
+    }
+
+}

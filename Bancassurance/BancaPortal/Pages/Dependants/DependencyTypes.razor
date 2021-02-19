@@ -1,0 +1,69 @@
+﻿@page "/dependancy_types/{Id:long}/{Key}"
+
+@inject ISessionChecker SessionChecker
+@inject IConfigReader ConfigReader
+@inject NavigationManager NavigationManager
+@inject IPageAccessChecker PageAccessChecker
+@inject ISessionLifeChecker SessionLifeChecker
+
+<body>
+    <div class="col-lg-12">
+        <div class="card">
+            <div class="card-header">
+                <h5>Dependancy Type</h5>
+            </div>
+            <div class="card-body">
+                <table class="table">
+                    <thead>
+                        <tr>
+                            <th scope="col">Type</th>
+                            <th scope="col"></th>
+                            <th scope="col"></th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Add Spouse</td>
+                            <td></td>
+                            <td><a href="add_spouse/@Id/@Key" role="button" class="btn btn-info">Add</a></td>
+                        </tr>
+                        <tr>
+                            <td>Dependents (24 yrs Below) x4</td>
+                            <td></td>
+                            <td><a href="add_normal/@Id/@Key" role="button" class="btn btn-info">Add</a></td>
+                        </tr>
+                        <tr>
+                            <td>Additional Premium (Parents) x4</td>
+                            <td></td>
+                            <td><a href="add_premium/@Id/@Key" role="button" class="btn btn-info">Add</a></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="card-footer">
+                <a href="members/@Key" role="button" class="btn btn-link">Back</a>
+            </div>
+        </div>
+    </div>
+</body>
+
+@code {
+    [Parameter]
+    public long Id { get; set; }
+    [Parameter]
+    public string Key { get; set; }
+
+    protected override async Task OnInitializedAsync()
+    {
+        if (SessionChecker.IsSessionMissing(Key) || SessionLifeChecker.IsExpired(Key))
+        {
+            NavigationManager.NavigateTo(ConfigReader.Read("VasPortalUrl"));
+            return;
+        }
+
+        if (!await PageAccessChecker.HasAccess("dependancy_types", Key))
+        {
+            NavigationManager.NavigateTo($"access_denied/{Key}");
+        }
+    }
+}

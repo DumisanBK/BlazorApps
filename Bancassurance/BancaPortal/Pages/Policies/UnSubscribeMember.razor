@@ -1,0 +1,161 @@
+﻿@page "/unsubscribe/{Id:long}/{Key}"
+
+@inject IMemberService MemberService
+@inject IUnsubscriptionService UnsubscriptionService
+@inject NavigationManager NavigationManager
+@inject IJSRuntime JSRuntime
+@inject AutoMapper.IMapper Mapper
+@inject ISessionChecker SessionChecker
+@inject IConfigReader ConfigReader
+@inject IPageAccessChecker PageAccessChecker
+@inject ISessionBridgeVmManager SessionBridgeVmManager
+@inject ISessionLifeChecker SessionLifeChecker
+
+<body>
+    <div class="col-lg-12">
+        <!-- Horizontal Form -->
+        <div class="card card-red">
+            @if (member == null)
+            {
+                <Spinner></Spinner>
+            }
+            else
+            {
+                <div class="card-header">
+                    <h5 class="card-title">Request Unsubscription of <span class="text-white">@_unsubscribeForm.FullName</span></h5>
+                </div>
+                <!-- /.card-header -->
+                <!-- form start -->
+                <EditForm Model="@_unsubscribeForm" OnValidSubmit="HandleValidSubmit" Class="form-horizontal">
+                    <DataAnnotationsValidator />
+                    <div class="card-body">
+                        <div class="form-group row">
+                            <label></label>
+                            <div class="col-sm-10">
+                                <label class="text-info">@message</label>
+                                <ValidationSummary />
+                            </div>
+                        </div>
+
+                        <div class="form-group row">
+                            <label for="lastName" class="col-sm-6 col-form-label">Member Name</label>
+                            <div class="col-sm-10">
+                                <InputText id="lastName" @bind-Value="_unsubscribeForm.FullName" Class="form-control" ReadOnly="true" />
+                            </div>
+                        </div>
+
+                        <div class="form-group row">
+                            <label for="phoneNumber" class="col-sm-6 col-form-label">Phone Number</label>
+                            <div class="col-sm-10">
+                                <InputText id="phoneNumber" @bind-Value="_unsubscribeForm.PhoneNumber" Class="form-control" ReadOnly="true" />
+                            </div>
+                        </div>
+
+                        <div class="form-group row">
+                            <label for="accountNumber" class="col-sm-6 col-form-label">Account Number</label>
+                            <div class="col-sm-10">
+                                <InputText id="accountNumber" @bind-Value="_unsubscribeForm.AccountNumber" Class="form-control" ReadOnly="true" />
+                            </div>
+                        </div>
+
+                        <div class="form-group row">
+                            <label for="reason" class="col-sm-6 col-form-label">Reason</label>
+                            <div class="col-sm-10">
+                                <InputTextArea id="reason" @bind-Value="_unsubscribeForm.Reason" Class="form-control" />
+                            </div>
+                        </div>
+                    </div>
+                    <!-- /.card-body -->
+                    <div class="card-footer">
+                        <button type="submit" class="btn btn-primary">Request Unsubscription</button>
+                        <a href="members/@Key" class="float-right">Back</a>
+                    </div>
+                    <!-- /.card-footer -->
+                </EditForm>
+                <!-- /.card -->
+            }
+        </div>
+    </div>
+</body>
+
+@code {
+
+    [Parameter]
+    public long Id { get; set; }
+    [Parameter]
+    public string Key { get; set; }
+
+    private UnsubscribeForm _unsubscribeForm = new UnsubscribeForm();
+
+    string message;
+    MemberVm member;
+    SessionBridgeVm sessionBridge;
+
+    protected override async Task OnInitializedAsync()
+    {
+        if (SessionChecker.IsSessionMissing(Key) || SessionLifeChecker.IsExpired(Key))
+        {
+            NavigationManager.NavigateTo(ConfigReader.Read("VasPortalUrl"));
+            return;
+        }
+
+        if (!await PageAccessChecker.HasAccess("unsubscribe", Key))
+        {
+            NavigationManager.NavigateTo($"access_denied/{Key}");
+            return;
+        }
+
+        sessionBridge = SessionBridgeVmManager.GetFromBasket(Key);
+
+        await FetchMember(Id);
+    }
+
+    protected async Task FetchMember(long memberId)
+    {
+        member = await MemberService.GetMemberAsync(Id);
+
+        if (member != null)
+        {
+            _unsubscribeForm = Mapper.Map<UnsubscribeForm>(member);
+            _unsubscribeForm.LastName = member.SurName;
+            _unsubscribeForm.FullName = $"{member.FirstName} {member.SurName}";
+        }
+        else
+        {
+            RedirectToMembers();
+        }
+    }
+
+    protected void RedirectToMembers()
+    {
+        NavigationManager.NavigateTo($"members/{Key}");
+    }
+
+    protected async Task HandleValidSubmit()
+    {
+        if (await RequestUnSubscrptionAsync(Id, sessionBridge.Username, _unsubscribeForm.Reason))
+        {
+            RedirectToMembers();
+            return;
+        }
+
+        _unsubscribeForm = new UnsubscribeForm();
+    }
+
+    protected async Task<bool> RequestUnSubscrptionAsync(long memberId, string requester, string reason)
+    {
+        bool submitted = await UnsubscriptionService.RequestUnSubscriptionAsync(memberId, requester, reason);
+
+        return submitted;
+    }
+
+    protected override void OnAfterRender(bool firstRender)
+    {
+        ActivateTable();
+    }
+
+    private void ActivateTable()
+    {
+        JSRuntime.InvokeAsync<object>("ActivateDataTable", "#membersTable");
+    }
+}

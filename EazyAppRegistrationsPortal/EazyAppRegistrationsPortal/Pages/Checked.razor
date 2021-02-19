@@ -1,0 +1,113 @@
+﻿@page "/checked/{Id}"
+
+@inject CustomerService CustomerService
+@inject IJSRuntime JSRuntime
+@inject NavigationManager NavigationManager
+@inject ISessionBridgeVmManager SessionBridgeVmManager
+@inject IConfigReader ConfigReader
+
+    <body>
+
+        @if (customers == null)
+        {
+            <p><em>Loading...</em></p>
+        }
+        else
+        {
+            <h5>Checked to Approve</h5>
+            <br />
+
+            <table id="example" class="table" style="width:100%">
+                <thead>
+                    <tr>
+                        <th>First Name</th>
+                        <th>Last Name</th>
+                        <th>Date Added</th>
+                        <th>Approved</th>
+                        <th></th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var customer in customers)
+                    {
+                        <tr>
+                            <td>@customer.Firstname</td>
+                            <td>@customer.Surname</td>
+                            <td>@customer.DateAdded</td>
+                            <td>@customer.Approved</td>
+
+                            <td>
+                                <button class="btn btn-outline-info" @onclick="() => RollBackApproval(customer.CustomerNumber)">Roll Back Approval</button> |
+                                <a href="customer_details/@Convert.ToInt64(customer.CustomerNumber)/@Id">Details</a>
+                            </td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        }
+    </body>
+
+@code {
+
+    [Parameter]
+    public string Id { get; set; }
+
+    bool refreshOnAdd;
+    int delayMillSec;
+    List<CustomerVm> customers;
+
+    protected override async Task OnInitializedAsync()
+    {
+        SessionBridgeVm sessionBridge = SessionBridgeVmManager.GetFromBasket(Id.ToString());
+        if (sessionBridge == null)
+        {
+            NavigationManager.NavigateTo(ConfigReader.Read("VasPortalUrl"));
+            return;
+        }
+
+        if (sessionBridge.RoleId != 1)
+        {
+            NavigationManager.NavigateTo($"access_denied/{Id}");
+            return;
+        }
+
+        delayMillSec = Convert.ToInt32(ConfigReader.Read("DelayMs"));
+        refreshOnAdd = Convert.ToBoolean(ConfigReader.Read("RefreshOnAdd"));
+        customers = await CustomerService.GetApprovedCustomers();
+    }
+
+
+    protected override void OnAfterRender(bool firstRender)
+    {
+
+        JSRuntime.InvokeAsync<object>("TestDataTablesAdd", "#example");
+
+    }
+
+    protected void CallAddTable()
+    {
+        JSRuntime.InvokeAsync<bool>("TestDataTablesAdd", "#example");
+    }
+
+    protected async Task RollBackApproval(string customerNumber)
+    {
+        await CustomerService.RollBackApproval(Id.ToString(), customerNumber);
+
+        if (refreshOnAdd)
+        {
+            NavigationManager.NavigateTo($"operation_successful/5/{Id}");
+        }
+        else
+        {
+            var customer = customers.FirstOrDefault(c => c.CustomerNumber == customerNumber);
+
+            if (customer != null)
+            {
+                customers.Remove(customer);
+                await Task.Delay(delayMillSec);
+            }
+        }
+    }
+
+
+}

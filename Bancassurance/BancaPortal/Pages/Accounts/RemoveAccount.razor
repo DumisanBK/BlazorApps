@@ -1,0 +1,103 @@
+﻿@page "/remove_account/{Account}/{MembersCount:int}/{Key}"
+
+@inject IAccountSettingsService AccountSettingsService
+@inject ISessionBridgeVmManager SessionBridgeVmManager
+@inject NavigationManager NavigationManager
+@inject IJSRuntime JSRuntime
+@inject ISessionChecker SessionChecker
+@inject IConfigReader ConfigReader
+@inject IPageAccessChecker PageAccessChecker
+@inject ISessionLifeChecker SessionLifeChecker
+@inject IPortalUserActionsService ActionsService
+@inject IMemberService MemberService
+
+<body>
+    <div class="col-lg-12">
+        <!-- /.card -->
+        <div class="card card-red">
+            <div class="card-header">
+                <h5 class="card-title">Remove account: <span class="text-white">@Account</span></h5>
+            </div>
+            <!-- /.card-header -->
+
+            <div class="card-body">
+                <table id="specialAccountTable" class="table" style="width:100%">
+                    <thead>
+                        <tr>
+                            <th></th>
+                            <th></th>
+                        </tr>
+                        <tr>
+                            <th></th>
+                            <th></th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Account Number</td>
+                            <td>@Account</td>
+                        </tr>
+                        <tr>
+                            <td>Members Under This Account</td>
+                            <td>@MembersCount</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="card-footer">
+                <button class="btn btn-danger" @onclick="() => RemoveSpecialAccountAsync()">Remove</button>
+                <a href="members_under_account/@Account/@Key" role="button" class="btn btn-link float-right">Back</a>
+            </div>
+        </div>
+    </div>
+</body>
+
+@code {
+    [Parameter]
+    public string Account { get; set; }
+    [Parameter]
+    public string Key { get; set; }
+    [Parameter]
+    public int MembersCount { get; set; }
+
+    AccountVm accountToRemove;
+
+    protected override async Task OnInitializedAsync()
+    {
+        if (SessionChecker.IsSessionMissing(Key) || SessionLifeChecker.IsExpired(Key))
+        {
+            NavigationManager.NavigateTo(ConfigReader.Read("VasPortalUrl"));
+            return;
+        }
+
+        if (!await PageAccessChecker.HasAccess("remove_account", Key))
+        {
+            NavigationManager.NavigateTo($"access_denied/{Key}");
+        }
+    }
+
+    protected async Task RemoveSpecialAccountAsync()
+    {
+        var session = SessionBridgeVmManager.GetFromBasket(Key);
+
+        try
+        {
+            bool removed = await MemberService.RemoveMembersByAccount(Account, session.Username);
+
+            string action = removed ? $"Removed {MembersCount} member(s) under {Account}"
+                : $"Tried to remove {MembersCount} member(s) under {Account}";
+
+            await ActionsService.AddAsync(session, action, Account);
+        }
+        catch (Exception exception)
+        {
+            System.Diagnostics.Debug.WriteLine(exception);
+            FileUtils.LogErrors(exception, ActionsService, session);
+        }
+        finally
+        {
+            NavigationManager.NavigateTo($"operation_successful/9/{Key}");
+        }
+    }
+
+}

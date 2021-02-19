@@ -1,0 +1,65 @@
+﻿@inject IJSRuntime JSRuntime
+@inject IConfigReader ConfigReader
+@inject ISessionBasket SessionBasket
+@inject NavigationManager NavigationManager
+
+<!-- Navbar -->
+<nav class="main-header navbar navbar-expand navbar-white navbar-light">
+    <!-- Right navbar links -->
+    <ul class="navbar-nav ml-auto">
+        <li class="nav-item dropdown">
+            <a class="nav-link" data-toggle="dropdown" href="#">
+                <i class="far fa-bell"></i>
+                <span class="badge badge-warning navbar-badge">15</span>
+            </a>
+            <div class="dropdown-menu dropdown-menu-lg dropdown-menu-right">
+                <span class="dropdown-header"></span>
+                <div class="dropdown-divider"></div>
+                <button class="btn btn-link dropdown-item" @onclick="DestroySession">
+                    <i class="fas fa-envelope mr-2"></i> Log out
+                    <span class="float-right text-muted text-sm"></span>
+                </button>
+            </div>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" data-widget="control-sidebar" data-slide="true" href="#" role="button">
+                <i class="fas fa-th-large"></i>
+            </a>
+        </li>
+    </ul>
+</nav>
+<!-- /.navbar -->
+
+
+@code {
+
+    string key;
+
+    protected override async Task OnAfterRenderAsync(bool firstRender)
+    {
+        try
+        {
+            var keyAsObject = await JSRuntime.InvokeAsync<object>("GetUrlKey");
+
+            if (keyAsObject == null) return;
+
+            key = Convert.ToString(keyAsObject);
+        }
+        catch (Exception)
+        {
+            key = null;
+        }
+    }
+
+    private void DestroySession()
+    {
+        System.Diagnostics.Debug.WriteLine("Atleast I was here...");
+        if (!string.IsNullOrEmpty(key))
+        {
+            SessionBasket.Remove(key);
+        }
+
+        NavigationManager.NavigateTo(ConfigReader.Read("VasPortalUrl"));
+    }
+
+}

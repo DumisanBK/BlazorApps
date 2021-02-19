@@ -1,0 +1,117 @@
+﻿@page "/remove_dependant/{Id:long}/{Key}"
+
+@inject IDependantsService DependantsService
+@inject NavigationManager NavigationManager
+@inject IJSRuntime JSRuntime
+@inject ISessionChecker SessionChecker
+@inject IConfigReader ConfigReader
+@inject IPageAccessChecker PageAccessChecker
+@inject ISessionLifeChecker SessionLifeChecker
+@inject IPortalUserActionsService ActionsService
+@inject ISessionBridgeVmManager SessionBridgeVmManager
+
+<body>
+    <div class="col-lg-12">
+        <div class="card card-red">
+            @if (dependant == null)
+            {
+                <Spinner></Spinner>
+            }
+            else
+            {
+                <div class="card-header">
+                    <h5 class="card-title">Dependant of <span class="text-white">@member.CustomerName</span></h5>
+                </div>
+                <div class="card-body">
+                    <div class="mt-2"></div>
+                    <a href="dependancy_types/@Id/@Key" role="button" class="btn btn-primary">Add Dependant</a>
+                    <div class="mt-2"></div>
+                    <table id="dependantsTable" class="table" style="width:100%">
+                        <thead>
+                            <tr>
+                                <th></th>
+                                <th></th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>First Name</td>
+                                <td>@dependant.FirstName</td>
+                            </tr>
+                            <tr>
+                                <td>Last Name</td>
+                                <td>@dependant.SurName</td>
+                            </tr>
+                            <tr>
+                                <td>Phone Number</td>
+                                <td>@dependant.PhoneNumber</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <div class="card-footer">
+                    <button class="btn btn-danger" @onclick="() => RemoveDependantAsync(dependant.Id)">Remove</button>
+                    <a href="dependants/@member.Id/@Key" role="button" class="btn btn-link float-right">Back</a>
+                </div>
+            }
+        </div>
+    </div>
+</body>
+
+@code {
+    [Parameter]
+    public long Id { get; set; }
+    [Parameter]
+    public string Key { get; set; }
+
+    MemberVm member;
+    DependantVm dependant;
+
+    protected override async Task OnInitializedAsync()
+    {
+        if (SessionChecker.IsSessionMissing(Key) || SessionLifeChecker.IsExpired(Key))
+        {
+            NavigationManager.NavigateTo(ConfigReader.Read("VasPortalUrl"));
+            return;
+        }
+
+        if (!await PageAccessChecker.HasAccess("remove_dependant", Key))
+        {
+            NavigationManager.NavigateTo($"access_denied/{Key}");
+            return;
+        }
+
+        await FetchDependant(Id);
+    }
+
+    protected async Task RemoveDependantAsync(long dependantId)
+    {
+        bool removed = await DependantsService.RemoveDependantAsync(dependantId);
+
+        string action = removed ? $"Removed dependant for member with Id: {member.Id}" 
+            : $"Tried to remove dependant for member with Id: {member.Id}";
+         
+        await ActionsService.AddAsync(SessionBridgeVmManager.GetFromBasket(Key),
+                action, Convert.ToString(dependantId));
+
+        NavigationManager.NavigateTo($"dependants/{member.Id}/{Key}");
+    }
+
+    protected async Task FetchDependant(long Id)
+    {
+        dependant = await DependantsService.GetDependantAsync(Id);
+
+        if (dependant == null)
+        {
+            NavigationManager.NavigateTo($"members/{Key}");
+            return;
+        }
+
+        member = dependant.Member;
+        if (member == null)
+        {
+            NavigationManager.NavigateTo($"members/{Key}");
+            return;
+        }
+    }
+}

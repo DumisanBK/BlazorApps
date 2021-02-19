@@ -1,0 +1,493 @@
+﻿@page "/add_member/{Key}"
+
+@inject NavigationManager NavigationManager
+@inject IMemberService MemberService
+@inject IT24AccountService T24AccountService
+@inject ITurnOverService TurnOverService
+@inject IAccountSettingsService AccountSettingsService
+@inject IConfigReader ConfigReader
+@inject IJSRuntime JSRuntime
+@inject AutoMapper.IMapper Mapper
+@inject ISessionChecker SessionChecker
+@inject IConfigReader ConfigReader
+@inject IPageAccessChecker PageAccessChecker
+@inject ISessionBridgeVmManager SessionBridgeVmManager
+@inject ITitlesService TitlesService
+@inject INumberService NumberService
+@inject ISystemSettingsService SystemSettingsService
+@inject ISessionLifeChecker SessionLifeChecker
+@inject IPortalUserActionsService ActionsService
+
+<body>
+    <div class="col-lg-12">
+        @if (cannotFetchAccount)
+        {
+            <Spinner></Spinner>
+        }
+        else
+        {
+            <!-- /.card -->
+            <!-- Horizontal Form -->
+            <div class="card card-red">
+                <div class="card-header">
+                    <h5 class="card-title">Add Member</h5>
+                </div>
+                <!-- /.card-header -->
+                <!-- form start -->
+                <EditForm Model="@_policyForm" OnValidSubmit="HandleValidSubmit" Class="form-horizontal">
+                    <DataAnnotationsValidator />
+                    <div class="card-body">
+                        <div class="form-group row">
+                            <label></label>
+                            <div class="col-sm-10">
+                                <label class="text-info">@message</label>
+                                <ValidationSummary />
+                            </div>
+                        </div>
+                        <div class="form-group row">
+                            <label for="accountNumber" class="col-sm-6 col-form-label">Account Number</label>
+                            <div class="col-sm-10">
+                                <InputText id="accountNumber" @bind-Value="_policyForm.AccountNumber" Class="form-control" @onblur="DoesAccountExist" />
+                            </div>
+                        </div>
+                        <div class="form-group row">
+                            <label for="title" class="col-sm-6 col-form-label">Title</label>
+                            <div class="col-sm-10">
+                                <InputSelect id="title" @bind-Value="_policyForm.Title" Class="form-control" ReadOnly="@cannotAddPolicy">
+                                    <option selected="selected" disabled="disabled">Select</option>
+                                    @foreach (var title in titles)
+                                        {
+                                        <option value="@title.Name">@title.Name</option>
+                                        }
+                                </InputSelect>
+                            </div>
+                        </div>
+                        <div class="form-group row">
+                            <label for="firstName" class="col-sm-6 col-form-label">First Name</label>
+                            <div class="col-sm-10">
+                                <InputText id="firstName" @bind-Value="_policyForm.FirstName" Class="form-control" ReadOnly="@cannotAddPolicy" />
+                            </div>
+                        </div>
+                        <div class="form-group row">
+                            <label for="lastName" class="col-sm-6 col-form-label">Last Name</label>
+                            <div class="col-sm-10">
+                                <InputText id="lastName" @bind-Value="_policyForm.SurName" Class="form-control" ReadOnly="@cannotAddPolicy" />
+                            </div>
+                        </div>
+                        <div class="form-group row">
+                            <label for="phoneNumber" class="col-sm-6 col-form-label">Phone Number</label>
+                            <div class="col-sm-10">
+                                <InputText id="phoneNumber" @bind-Value="_policyForm.PhoneNumber" Class="form-control" ReadOnly="@cannotAddPolicy" />
+                            </div>
+                        </div>
+                        <div class="form-group row">
+                            <label for="policyType" class="col-sm-6 col-form-label">Policy Type</label>
+                            <div class="col-sm-10">
+                                <InputSelect id="policyType" @bind-Value="_policyForm.PolicyType" Class="form-control" ReadOnly="@cannotAddPolicy">
+                                    <option selected="selected" disabled="disabled">Select</option>
+                                    @foreach (var turnOver in turnOverTypes)
+                                        {
+                                        <option value="@turnOver.TurnOverId">@turnOver.TurnOverType</option>
+                                        }
+                                </InputSelect>
+                            </div>
+                        </div>
+
+                        <div class="form-group row">
+                            <label for="age" class="col-sm-6 col-form-label">Age</label>
+                            <div class="col-sm-10">
+                                <InputSelect id="age" @bind-Value="_policyForm.Age" Class="form-control" ReadOnly="@cannotAddPolicy">
+                                    <option selected="selected" disabled="disabled">Select</option>
+                                    @foreach (var age in ages)
+                                        {
+                                        <option value="@age">@age</option>
+                                        }
+                                </InputSelect>
+                            </div>
+                        </div>
+
+                        <div class="form-group row">
+                            <label for="gender" class="col-sm-6 col-form-label">Gender</label>
+                            <div class="col-sm-10">
+                                <InputSelect id="gender" @bind-Value="_policyForm.Gender" Class="form-control" ReadOnly="@cannotAddPolicy">
+                                    <option selected="selected" disabled="disabled">Select</option>
+                                    <option value="MALE">Male</option>
+                                    <option value="FEMALE">Female</option>
+                                </InputSelect>
+                            </div>
+                        </div>
+                        <div class="form-group row">
+                            <label for="picture" class="col-sm-6 col-form-label">Customer Picture</label>
+                            <div class="col-sm-10">
+                                <InputFile id="picture" OnChange="HandleFileSelected" Class="form-control" ReadOnly="@cannotAddPolicy" />
+                            </div>
+                            <label>@_policyForm.PictureAsString</label>
+                        </div>
+                        @if (showDate)
+                        {
+                            bool showDateInverse = !showDate;
+                            <div class="form-group row">
+                                <label for="dateAdded" class="col-sm-6 col-form-label">Date Registered</label>
+                                <div class="col-sm-10">
+                                    <InputDate id="dateAdded" class="form-control" @bind-Value="_policyForm.DateCreated" ReadOnly="@showDateInverse" />
+                                </div>
+                                <label>@_policyForm.DateCreated</label>
+                            </div>
+                        }
+                    </div>
+                    <!-- /.card-body -->
+                    <div class="card-footer">
+                        <button type="submit" class="btn btn-primary" disabled="@disableButton">Add Member</button>
+                        <a href="members/@Key" class="float-right">Back</a>
+                    </div>
+                    <!-- /.card-footer -->
+                </EditForm>
+            </div>
+            <!-- /.card -->
+        }
+    </div>
+</body>
+
+@code {
+    [Parameter]
+    public string Key { get; set; }
+
+    private PolicyForm _policyForm = new PolicyForm();
+
+    private bool showDate = false;
+    private bool redirectIsOn = false;
+    private bool disableButton = true;
+    private bool cannotAddPolicy = true;
+    private bool multipleAccount = false;
+    private bool cannotFetchAccount = false;
+
+    private string message;
+    private string backedUpAccount;
+
+    private List<int> ages = new List<int>();
+    private List<TitlesVm> titles = new List<TitlesVm>();
+    private List<TurnOverTypeVm> turnOverTypes = new List<TurnOverTypeVm>();
+
+    private CustomerMessage customerMessageResult;
+
+    protected override async Task OnInitializedAsync()
+    {
+        if (SessionChecker.IsSessionMissing(Key) || SessionLifeChecker.IsExpired(Key))
+        {
+            NavigationManager.NavigateTo(ConfigReader.Read("VasPortalUrl"));
+            return;
+        }
+
+        if (!await PageAccessChecker.HasAccess("add_member", Key))
+        {
+            NavigationManager.NavigateTo($"access_denied/{Key}");
+        }
+
+        CheckIfAccountCanBeFetched();
+
+        await GetTurnOverTypesAsync();
+        await GetTitlesAsync();
+
+        InitializeAges();
+
+        await InitializeShowDate();
+
+        await InitializeRedirectIsOn();
+    }
+
+    protected async Task InitializeShowDate()
+    {
+        var dateOnAddSetting = await SystemSettingsService.GetSystemSettingAsync(1);
+
+        if (dateOnAddSetting == null) return;
+
+        showDate = dateOnAddSetting.Value;
+    }
+
+    protected async Task InitializeRedirectIsOn()
+    {
+        var redirectSetting = await SystemSettingsService.GetSystemSettingAsync(2);
+
+        if (redirectSetting == null) return;
+
+        redirectIsOn = redirectSetting.Value;
+    }
+
+    protected void CheckIfAccountCanBeFetched()
+    {
+        try
+        {
+            message = "Please wait...";
+
+            cannotFetchAccount = !T24AccountService.CanFetchAccount();
+        }
+        catch (Exception)
+        {
+            message = string.Empty;
+            cannotFetchAccount = false;
+        }
+    }
+
+    protected void InitializeAges()
+    {
+        int start = Convert.ToInt32(ConfigReader.Read("MemberMinimumAge"));
+        int end = Convert.ToInt32(ConfigReader.Read("MemberMaximumAge"));
+        int count = (end - start) + 1;
+
+        ages = NumberService.Generate(start, count).ToList();
+    }
+
+    protected void RedirectToMembers()
+    {
+        NavigationManager.NavigateTo($"operation_successful/4/{Key}");
+    }
+
+    protected void HandleFileSelected(IFileListEntry[] files)
+    {
+        var file = files.FirstOrDefault();
+
+        if (file == null)
+        {
+            return;
+        }
+
+        long fileSize = file.Size;
+        long maxSize = FileUtils.GetMaxImageSize(ConfigReader);
+        if (fileSize > maxSize)
+        {
+            message = $"File cannot exceed {ConfigReader.Read("MaxImageSizeString")}";
+            return;
+        }
+
+        string fileType = FileUtils.GetAllowedImageTypes(ConfigReader)
+            .SingleOrDefault(t => t == file.Type);
+        if (fileType == null)
+        {
+            message = $"File should be an image";
+            return;
+        }
+
+        _policyForm.Picture = file;
+        _policyForm.PictureAsString = file.Name;
+    }
+
+    protected async Task HandleValidSubmit()
+    {
+        if (!await UploadPictureAsync())
+        {
+            return;
+        }
+
+        if (await AddMemberAsync())
+        {
+            if (redirectIsOn)
+            {
+                NavigationManager.NavigateTo($"operation_successful/4/{Key}");
+            }
+            else
+            {
+                NavigationManager.NavigateTo($"operation_successful/7/{Key}");
+            }
+            return;
+        }
+
+        _policyForm = new PolicyForm();
+
+        message = "Policy not added. Please try again later";
+
+        disableButton = true;
+        cannotAddPolicy = true;
+        multipleAccount = false;
+        backedUpAccount = string.Empty;
+    }
+
+    void ClearPictureFromPolicyForm()
+    {
+        try
+        {
+            _policyForm.Picture = null;
+        }
+        catch (Exception)
+        {
+        }
+    }
+
+    protected async Task<bool> UploadPictureAsync()
+    {
+        bool saved = false;
+
+        var picture = _policyForm.Picture;
+
+        if (picture != null)
+        {
+            string filename = $"{_policyForm.FirstName}{_policyForm.SurName}_{_policyForm.PhoneNumber}"
+                + $"_{Guid.NewGuid()}.{ConfigReader.Read("CustomerPictureExtension")}";
+
+            saved = await FileUtils.SaveFileAsync(picture,
+                ConfigReader.Read("FilePath"), filename, ActionsService, SessionBridgeVmManager.GetFromBasket(Key));
+
+            message = saved ? string.Empty : "Failed to upload picture";
+
+            ClearPictureFromPolicyForm();
+        }
+        else
+        {
+            message = "Select a picture please!";
+        }
+
+        return saved;
+    }
+
+    protected async Task<bool> AddMemberAsync()
+    {
+        bool added = false;
+
+        try
+        {
+            if (customerMessageResult == null)
+                return false;
+
+            if (multipleAccount)
+            {
+                _policyForm.CustomerName = $"{_policyForm.Title} {_policyForm.FirstName} {_policyForm.SurName}";
+            }
+
+            _policyForm.AccountNumber = backedUpAccount;
+            _policyForm.Category = Convert.ToString(customerMessageResult.MessageData.AccCategCode);
+            _policyForm.CompanyCode = customerMessageResult.MessageData.CompanyCode;
+            _policyForm.CompanyName = customerMessageResult.MessageData.BranchName;
+            _policyForm.CategoryDescription = customerMessageResult.MessageData.AccCategDesc;
+            _policyForm.Cashier = Convert.ToString(SessionBridgeVmManager.GetFromBasket(Key).TellerId);
+            _policyForm.TurnOverId = Convert.ToInt32(_policyForm.PolicyType);
+            if (!showDate) _policyForm.DateCreated = DateTime.Now;
+
+            PolicyFormUtils.Capitalize(ref _policyForm);
+
+            added = await MemberService.AddMemberAsync(_policyForm);
+
+            string action = added ? "Added policy" : "Failed to add policy";
+
+            await ActionsService.AddAsync(SessionBridgeVmManager.GetFromBasket(Key),
+                    action, $"{_policyForm.Title} {_policyForm.FirstName} {_policyForm.SurName}");
+
+            return added;
+        }
+        catch (Exception exception)
+        {
+            FileUtils.LogErrors(exception, ActionsService, SessionBridgeVmManager.GetFromBasket(Key));
+        }
+
+        return added;
+    }
+
+    protected async Task GetTurnOverTypesAsync()
+    {
+        turnOverTypes = await TurnOverService.GetTurnOverTypesAsync();
+    }
+
+    protected async Task GetTitlesAsync()
+    {
+        titles = await TitlesService.GetTitlesAsync();
+    }
+
+    protected async Task DoesAccountExist()
+    {
+        try
+        {
+            if (string.IsNullOrEmpty(_policyForm.AccountNumber))
+            {
+                message = "Provide account number please!";
+                return;
+            }
+
+            message = "Checking account, please wait...";
+
+            customerMessageResult = await T24AccountService.GetCustomerDetailsAsync(_policyForm.AccountNumber);
+            if (customerMessageResult.MessageCode != 0)
+            {
+                cannotAddPolicy = true;
+                disableButton = true;
+                message = "Account does not exist in T24";
+
+                return;
+            }
+
+            multipleAccount = await AccountSettingsService.IsMultipleAccount(_policyForm.AccountNumber);
+            if (multipleAccount)
+            {
+                EnablePolicyForm();
+            }
+            else
+            {
+                bool memberFound = await MemberService.AnyAsync(MemberExpressions.FilterByAccount(_policyForm.AccountNumber));
+                if (memberFound)
+                {
+                    cannotAddPolicy = true;
+                    disableButton = true;
+                    message = "This account cannot accept multiple members";
+                }
+                else
+                {
+                    EnablePolicyForm();
+
+                    FillPolicyForm();
+                }
+            }
+        }
+        catch (Exception exception)
+        {
+            message = "T24 error";
+
+            FileUtils.LogErrors(exception, ActionsService, SessionBridgeVmManager.GetFromBasket(Key));
+        }
+    }
+
+    private void EnablePolicyForm()
+    {
+        cannotAddPolicy = false;
+        disableButton = false;
+        message = String.Empty;
+        backedUpAccount = _policyForm.AccountNumber;
+    }
+
+    private void FillPolicyForm()
+    {
+        if (customerMessageResult.MessageCode != 0)
+            return;
+
+        _policyForm.Title = customerMessageResult.MessageData.Title;
+        _policyForm.Gender = customerMessageResult.MessageData.Gender;
+        _policyForm.SurName = customerMessageResult.MessageData.Surname;
+        _policyForm.FirstName = customerMessageResult.MessageData.FirstName;
+        _policyForm.CustomerName = customerMessageResult.MessageData.CustomerName;
+        _policyForm.PhoneNumber = customerMessageResult.MessageData.MobilePhone;
+
+        if (!string.IsNullOrEmpty(customerMessageResult.MessageData.DateOfBirth))
+        {
+            int age = DateUtils.FindDifferenceBetweenThenAndNow(
+                customerMessageResult.MessageData.DateOfBirth);
+
+            int ageLimit = Convert.ToInt32(ConfigReader.Read("MemberMaximumAge"));
+
+            if (age > ageLimit)
+            {
+                cannotAddPolicy = true;
+                disableButton = true;
+                message = $"Maximum age is {ageLimit}";
+
+                return;
+            }
+
+            _policyForm.Age = Convert.ToString(age);
+            backedUpAccount = _policyForm.AccountNumber;
+        }
+        else
+        {
+            cannotAddPolicy = true;
+            disableButton = true;
+            backedUpAccount = string.Empty;
+            message = $"Failed to retrieve the members' age";
+        }
+    }
+
+}

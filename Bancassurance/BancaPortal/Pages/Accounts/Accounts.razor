@@ -1,0 +1,90 @@
+﻿@page "/accounts/{Key}"
+
+@inject IAccountSettingsService AccountSettingsService
+@inject NavigationManager NavigationManager
+@inject IJSRuntime JSRuntime
+@inject ISessionChecker SessionChecker
+@inject IConfigReader ConfigReader
+@inject IPageAccessChecker PageAccessChecker
+@inject ISessionLifeChecker SessionLifeChecker
+@inject IMemberService MemberService
+
+<body>
+    <div class="col-lg-12">
+        <div class="card card-red">
+            @if (accounts == null)
+            {
+                <Spinner></Spinner>
+            }
+            else
+            {
+                <div class="card-header">
+                    <h5 class="card-title">Accounts</h5>
+                </div>
+                <div class="card-body">
+                    <div class="mt-2"></div>
+                    <table id="allAccountsTable" class="table table-striped table-bordered" style="width:100%">
+                        <thead>
+                            <tr>
+                                <th>Account Number</th>
+                                <th></th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            @foreach (var account in accounts)
+                            {
+                                <tr>
+                                    <td>@account.AccountNumber</td>
+                                    <td>
+                                        <a href="members_under_account/@account.AccountNumber/@Key" class="btn btn-danger">Member(s)</a>
+                                    </td>
+                                </tr>
+                            }
+                        </tbody>
+                    </table>
+                </div>
+                <div class="card-footer">
+                    <a href="home/@Key">Back</a>
+                </div>
+            }
+        </div>
+    </div>
+</body>
+
+@code {
+
+    [Parameter]
+    public string Key { get; set; }
+
+    List<AccountVm> accounts;
+
+    protected override async Task OnInitializedAsync()
+    {
+        if (SessionChecker.IsSessionMissing(Key) || SessionLifeChecker.IsExpired(Key))
+        {
+            NavigationManager.NavigateTo(ConfigReader.Read("VasPortalUrl"));
+            return;
+        }
+
+        if (!await PageAccessChecker.HasAccess("accounts", Key))
+        {
+            NavigationManager.NavigateTo($"access_denied/{Key}");
+            return;
+        }
+
+        var members = await MemberService.GetMembersAsync();
+        accounts = members?.Select(m => new AccountVm { AccountNumber = m.AccountNumber })
+            .Distinct()
+            .ToList();
+    }
+
+    protected override void OnAfterRender(bool firstRender)
+    {
+        ActivateTable();
+    }
+
+    private void ActivateTable()
+    {
+        JSRuntime.InvokeAsync<object>("ActivateDataTable", "#allAccountsTable");
+    }
+}

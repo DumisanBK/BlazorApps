@@ -1,0 +1,75 @@
+﻿@page "/"
+@namespace BancaPortal.Pages
+@addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+
+    <title>BancassurancePortal</title>
+    <base href="~/" />
+
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="css/fontawesome-free/css/all.min.css">
+    <!-- Theme style -->
+    <link rel="stylesheet" href="css/adminlte.min.css">
+
+    <link rel="stylesheet" href="css/datatable/dataTables.bootstrap4.min.css" />
+    <link rel="stylesheet" href="css/datatable/responsive.bootstrap4.min.css" />
+    <!-- Google Font: Source Sans Pro -->
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700" rel="stylesheet">
+    <!-- Blazor Error Div -->
+    <link rel="stylesheet" href="css/blazor-error.css" />
+</head>
+<body class="hold-transition sidebar-mini">
+    <app>
+        <component type="typeof(App)" render-mode="ServerPrerendered" />
+    </app>
+
+    <div class="hide">
+        <input type="hidden" id="urlKey" name="urlKey" />
+    </div>
+
+    <script src="_framework/blazor.server.js"></script>
+    <!-- REQUIRED SCRIPTS -->
+    <!-- jQuery -->
+    <script src="js/jquery.min.js"></script>
+    <!-- Bootstrap 4 -->
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <!-- AdminLTE App -->
+    <script src="js/adminlte.min.js"></script>
+    <script src="js/datatable/jquery.dataTables.min.js"></script>
+    <script src="js/datatable/dataTables.bootstrap4.min.js"></script>
+    <script src="js/datatable/dataTables.responsive.min.js"></script>
+    <script src="js/datatable/responsive.bootstrap4.min.js"></script>
+
+    <script src="_content/BlazorInputFile/inputfile.js"></script>
+
+    <script>
+        function ActivateDataTable(dataTableName) {
+            $(document).ready(function () {
+                $(dataTableName).DataTable();
+            });
+        }
+
+        function BufferUrlKey(urlKey) {
+            $(document).ready(function () {
+                $("#urlKey").val(urlKey);
+            });
+        }
+
+        function GetUrlKey() {
+            var urlKey = $("#urlKey").val();
+
+            return urlKey;
+        }
+
+    </script>
+</body>
+</html>

@@ -1,0 +1,152 @@
+﻿@page "/white_list_account/{Key}"
+
+@inject IAccountSettingsService AccountSettingsService
+@inject IT24AccountService T24AccountService
+@inject NavigationManager NavigationManager
+@inject ISessionChecker SessionChecker
+@inject IConfigReader ConfigReader
+@inject ISessionBridgeVmManager SessionBridgeVmManager
+@inject AutoMapper.IMapper Mapper
+@inject IPageAccessChecker PageAccessChecker
+@inject ISessionLifeChecker SessionLifeChecker
+@inject IPortalUserActionsService ActionsService 
+
+<body>
+    <div class="col-lg-12">
+        @if (cannotFetchAccount)
+        {
+            <Spinner></Spinner>
+        }
+        else
+        {
+            <div class="card card-red">
+                <div class="card-header">
+                    <h5 class="card-title">Add Special Account</h5>
+                </div>
+                <!-- /.card-header -->
+                <!-- form start -->
+                <EditForm Model="@_specialAccount" OnValidSubmit="HandleValidSubmit" Class="form-horizontal">
+                    <div class="card-body">
+                        <div class="form-group row">
+                            <label></label>
+                            <div class="col-sm-10">
+                                <label class="text-info">@message</label>
+                                <ValidationSummary />
+                            </div>
+                        </div>
+
+                        <div class="form-group row">
+                            <label for="accountNumber" class="col-sm-6 col-form-label">Account Number</label>
+                            <div class="col-sm-10">
+                                <InputText id="accountNumber" @onblur="DoesAccountExist" @bind-Value="_specialAccount.AccountNumber" Class="form-control" />
+                            </div>
+                        </div>
+                    </div>
+                    <!-- /.card-body -->
+                    <div class="card-footer">
+                        <button type="submit" class="btn btn-primary" disabled="@cannotAddAccount">Submit</button>
+                        <a href="white_listed_accounts/@Key" class="float-right">Back</a>
+                    </div>
+                    <!-- /.card-footer -->
+                </EditForm>
+            </div>
+            <!-- /.card -->
+        }
+    </div>
+</body>
+
+@code {
+
+    [Parameter]
+    public string Key { get; set; }
+
+    private SpecialAccountVm _specialAccount = new SpecialAccountVm();
+
+    private bool cannotFetchAccount = false;
+    private bool cannotAddAccount = true;
+    private string message;
+
+    protected override async Task OnInitializedAsync()
+    {
+        if (SessionChecker.IsSessionMissing(Key) || SessionLifeChecker.IsExpired(Key))
+        {
+            NavigationManager.NavigateTo(ConfigReader.Read("VasPortalUrl"));
+            return;
+        }
+
+        if (!await PageAccessChecker.HasAccess("white_list_account", Key))
+        {
+            NavigationManager.NavigateTo($"access_denied/{Key}");
+        }
+    }
+
+    protected void CheckIfAccountCanBeFetched()
+    {
+        try
+        {
+            message = "Please wait...";
+
+            cannotFetchAccount = !T24AccountService.CanFetchAccount();
+        }
+        catch (Exception)
+        {
+            message = string.Empty;
+            cannotFetchAccount = false;
+        }
+    }
+
+    private async Task HandleValidSubmit()
+    {
+        _specialAccount.MultipleMembers = true;
+        _specialAccount.CreatedBy = SessionBridgeVmManager.GetFromBasket(Key).Username;
+
+        var accountSetting = Mapper.Map<AccountSettings>(_specialAccount);
+
+        bool added = await AccountSettingsService.AddAccountSettingAsync(accountSetting);
+
+        string action = added ? "Added special account" : "Tried to add special account";
+        await ActionsService.AddAsync(SessionBridgeVmManager.GetFromBasket(Key),
+               action, accountSetting.AccountNumber);
+
+        if (added)
+        {
+            NavigationManager.NavigateTo($"white_listed_accounts/{Key}");
+        }
+    }
+
+    protected async Task DoesAccountExist()
+    {
+        try
+        {
+            if (string.IsNullOrEmpty(_specialAccount.AccountNumber))
+            {
+                message = "Provide account number please!";
+                return;
+            }
+
+            message = "Checking account, please wait...";
+
+            CustomerMessage customerDetails = await T24AccountService.GetCustomerDetailsAsync(_specialAccount.AccountNumber);
+            if (customerDetails.MessageCode != 0)
+            {
+                cannotAddAccount = true;
+                message = "Account does not exist in T24";
+            }
+            else
+            {
+                var customerName = string.IsNullOrEmpty(customerDetails.MessageData.CustomerName)
+                        ? customerDetails.MessageData.AccountTitle : customerDetails.MessageData.CustomerName;
+
+                cannotAddAccount = false;
+                _specialAccount.AccountName = customerName;
+                message = $"Account Belongs To {_specialAccount.AccountName}";
+            }
+        }
+        catch (Exception)
+        {
+            message = "T24 error";
+        }
+    }
+
+}
+

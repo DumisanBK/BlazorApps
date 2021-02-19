@@ -1,0 +1,54 @@
+﻿@page "/sign_in"
+@page "/sign_in/{Key}"
+
+@inject ISessionBridgeService SessionBridgeService
+@inject ISessionBridgeVmManager SessionBridgeVmManager
+@inject NavigationManager NavigationManager
+@inject IConfigReader ConfigReader
+
+<body>
+</body>
+
+@code {
+
+    [Parameter]
+    public string Key { get; set; }
+
+    SessionBridgeVm sessionBridge = null;
+
+    protected override async Task OnInitializedAsync()
+    {
+        if (string.IsNullOrEmpty(Key)) Key = ConfigReader.Read("DefaultGuid");
+
+        bool defaultGuid = Key == ConfigReader.Read("DefaultGuid");
+        if (defaultGuid)
+        {
+            NavigationManager.NavigateTo(ConfigReader.Read("VasPortalUrl"));
+            return;
+        }
+
+        sessionBridge = SessionBridgeVmManager.GetFromBasket(Key);
+        
+        if (sessionBridge == null)
+        {
+            sessionBridge = await SessionBridgeService.GetSessionBridgeAsync(Key, true);
+
+            if (sessionBridge == null)
+            {
+                NavigationManager.NavigateTo(ConfigReader.Read("VasPortalUrl"));
+                return;
+            }
+
+            double sessionLengthInMinutes = Convert.ToDouble(ConfigReader.Read("SessionLengthInMinutes"));
+
+            sessionBridge.ExpiryDate = DateTime.Now.AddMinutes(sessionLengthInMinutes);
+
+            SessionBridgeVmManager.PutInBasket(sessionBridge);
+            NavigationManager.NavigateTo($"home/{Key}");
+        }
+        else
+        {
+            NavigationManager.NavigateTo($"home/{Key}");
+        }
+    }
+}

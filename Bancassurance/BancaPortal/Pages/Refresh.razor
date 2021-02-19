@@ -1,0 +1,27 @@
+﻿@page "/refresh_app/{Key}"
+
+@inject IJSRuntime JSRuntime
+@inject NavigationManager NavigationManager
+
+@code {
+
+    [Parameter]
+    public string Key { get; set; }
+
+    protected override async Task OnAfterRenderAsync(bool firstRender)
+    {
+        try
+        {
+            this.StateHasChanged();
+
+            await JSRuntime.InvokeAsync<object>("BufferUrlKey", $"{Key}");
+
+            NavigationManager.NavigateTo($"home/{Key}");
+        }
+        catch (Exception ex)
+        {
+            System.Diagnostics.Debug.WriteLine($"Refresh triggered an error {ex}");
+        }
+    }
+
+}
