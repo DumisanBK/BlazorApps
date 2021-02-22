@@ -1,0 +1,90 @@
+﻿@page "/denied_customers/{Key}"
+
+@inject CustomerService CustomerService
+@inject NavigationManager NavigationManager
+@inject ISessionBridgeVmManager SessionBridgeVmManager
+@inject IJSRuntime JSRuntime
+@inject IConfigReader ConfigReader
+
+    <body>
+        @if (customers == null)
+        {
+            <p><em>Loading...</em></p>
+        }
+        else
+        {
+            <h3>Denied customers</h3>
+
+            <table id="checkedCustomersTable" class="table" style="width: 100%">
+                <thead>
+                    <tr>
+                        <th>Account Number</th>
+                        <th>Account Name</th>
+                        <th>Phone Number</th>
+                        <th>Reg Date</th>
+                        <th>Status</th>
+                        <th></th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var customer in customers)
+                    {
+                    <tr>
+                        <td>@customer.AcAccountNumber</td>
+                        <td>@customer.AcAccountName</td>
+                        <td>@customer.AcPhoneNumber</td>
+                        <td>@customer.AcRegistrationDate</td>
+                        <td>@customer.AcStatus</td>
+                        <td>
+                            <button class="btn btn-outline-info" @onclick="() => InitiateApproveAsync(customer.AcCustomerNumber)">Initiate Approval</button>
+                        </td>
+                    </tr>
+                    }
+                </tbody>
+            </table>
+        }
+    </body>
+
+@code {
+
+    [Parameter]
+    public string Key { get; set; }
+
+    List<TbSelfRegistrationVm> customers;
+
+    protected override async Task OnInitializedAsync()
+    {
+        SessionBridgeVm sessionBridge = SessionBridgeVmManager.GetFromBasket(Key);
+        if (sessionBridge == null)
+        {
+            NavigationManager.NavigateTo(ConfigReader.Read("VasPortalUrl"));
+            return;
+        }
+
+        if (sessionBridge.RoleId != 1)
+        {
+            NavigationManager.NavigateTo($"access_denied/{Key}");
+            return;
+        }
+
+        customers = await CustomerService.GetDeniedCustomersAsync();
+    }
+
+    protected async Task InitiateApproveAsync(string customerNumber)
+    {
+        await CustomerService.CheckCustomerAsync(Key, customerNumber);
+
+        NavigationManager.NavigateTo($"operation_successful/6/{Key}");
+    }
+
+    protected override void OnAfterRender(bool firstRender)
+    {
+        CallAddTable();
+    }
+
+    protected void CallAddTable()
+    {
+        JSRuntime.InvokeAsync<bool>("ActivateDataTable", "#checkedCustomersTable");
+    }
+
+}

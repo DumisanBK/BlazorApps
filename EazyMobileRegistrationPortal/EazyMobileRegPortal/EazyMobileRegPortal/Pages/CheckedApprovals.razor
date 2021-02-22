@@ -1,0 +1,98 @@
+﻿@page "/checkedapprovals/{Key}"
+
+@inject CustomerService CustomerService
+@inject NavigationManager NavigationManager
+@inject ISessionBridgeVmManager SessionBridgeVmManager
+@inject IJSRuntime JSRuntime
+@inject IConfigReader ConfigReader
+
+    <body>
+        @if (customers == null)
+        {
+            <p><em>Loading...</em></p>
+        }
+        else
+        {
+            <h3>Unapproved Customers</h3>
+
+            <table id="uncheckedCustomersTable" class="table" style="width: 100%">
+                <thead>
+                    <tr>
+                        <th>Account Number</th>
+                        <th>Account Name</th>
+                        <th>Phone Number</th>
+                        <th>Reg Date</th>
+                        <th>Status</th>
+                        <th></th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var customer in customers)
+                    {
+                    <tr>
+                        <td>@customer.AcAccountNumber</td>
+                        <td>@customer.AcAccountName</td>
+                        <td>@customer.AcPhoneNumber</td>
+                        <td>@customer.AcRegistrationDate</td>
+                        <td>@customer.AcStatus</td>
+                        <td>
+                            <button class="btn btn-outline-info" @onclick="() => ApproveAsync(customer.AcCustomerNumber)">Approve</button>
+                            <button class="btn btn-outline-info" @onclick="() => DenyAsync(customer.AcCustomerNumber)">Deny</button>
+                        </td>
+                    </tr>
+                    }
+                </tbody>
+            </table>
+        }
+    </body>
+
+@code {
+
+    [Parameter]
+    public string Key { get; set; }
+
+    List<TbSelfRegistrationVm> customers;
+
+    protected override async Task OnInitializedAsync()
+    {
+        SessionBridgeVm sessionBridge = SessionBridgeVmManager.GetFromBasket(Key);
+        if (sessionBridge == null)
+        {
+            NavigationManager.NavigateTo(ConfigReader.Read("VasPortalUrl"));
+            return;
+        }
+
+        if (sessionBridge.RoleId != 1)
+        {
+            NavigationManager.NavigateTo($"access_denied/{Key}");
+            return;
+        }
+
+        customers = await CustomerService.GetCheckedCustomers();
+    }
+
+    protected async Task ApproveAsync(string customerNumber)
+    {
+        await CustomerService.ApproveCustomerAsync(Key, customerNumber);
+
+        NavigationManager.NavigateTo($"operation_successful/4/{Key}");
+    }
+
+    protected async Task DenyAsync(string customerNumber)
+    {
+        await CustomerService.DenyCustomerAsync(Key, customerNumber);
+
+        NavigationManager.NavigateTo($"operation_successful/4/{Key}");
+    }
+
+    protected override void OnAfterRender(bool firstRender)
+    {
+        CallAddTable();
+    }
+
+    protected void CallAddTable()
+    {
+        JSRuntime.InvokeAsync<bool>("ActivateDataTable", "#uncheckedCustomersTable");
+    }
+
+}

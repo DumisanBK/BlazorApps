@@ -1,0 +1,27 @@
+﻿@page "/router/{Page}"
+
+@inject IJSRuntime JSRuntime
+@inject NavigationManager NavigationManager
+
+<body>
+</body>
+
+@code {
+
+    [Parameter]
+    public string Page { get; set; }
+
+    protected override async Task OnAfterRenderAsync(bool firstRender)
+    {
+        if (string.IsNullOrEmpty(Page)) return;
+
+        var keyAsObject = await JSRuntime.InvokeAsync<object>("GetUrlKey");
+
+        if (keyAsObject == null) return;
+
+        string key = Convert.ToString(keyAsObject);
+
+        NavigationManager.NavigateTo($"{Page}/{key}");
+    }
+
+}

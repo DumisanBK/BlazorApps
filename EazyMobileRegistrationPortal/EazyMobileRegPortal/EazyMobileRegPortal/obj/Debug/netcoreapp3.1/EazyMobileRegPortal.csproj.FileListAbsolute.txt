@@ -1,0 +1,498 @@
+C:\Users\kaunda.dum\source\repos\EazyMobileRegPortal\EazyMobileRegPortal\bin\Debug\netcoreapp3.1\appsettings.Development.json
+C:\Users\kaunda.dum\source\repos\EazyMobileRegPortal\EazyMobileRegPortal\bin\Debug\netcoreapp3.1\appsettings.json
+C:\Users\kaunda.dum\source\repos\EazyMobileRegPortal\EazyMobileRegPortal\bin\Debug\netcoreapp3.1\Properties\launchSettings.json
+C:\Users\kaunda.dum\source\repos\EazyMobileRegPortal\EazyMobileRegPortal\bin\Debug\netcoreapp3.1\EazyMobileRegPortal.exe
+C:\Users\kaunda.dum\source\repos\EazyMobileRegPortal\EazyMobileRegPortal\bin\Debug\netcoreapp3.1\EazyMobileRegPortal.deps.json
+C:\Users\kaunda.dum\source\repos\EazyMobileRegPortal\EazyMobileRegPortal\bin\Debug\netcoreapp3.1\EazyMobileRegPortal.runtimeconfig.json
+C:\Users\kaunda.dum\source\repos\EazyMobileRegPortal\EazyMobileRegPortal\bin\Debug\netcoreapp3.1\EazyMobileRegPortal.runtimeconfig.dev.json
+C:\Users\kaunda.dum\source\repos\EazyMobileRegPortal\EazyMobileRegPortal\bin\Debug\netcoreapp3.1\EazyMobileRegPortal.dll
+C:\Users\kaunda.dum\source\repos\EazyMobileRegPortal\EazyMobileRegPortal\bin\Debug\netcoreapp3.1\EazyMobileRegPortal.pdb
+C:\Users\kaunda.dum\source\repos\EazyMobileRegPortal\EazyMobileRegPortal\bin\Debug\netcoreapp3.1\EazyMobileRegPortal.Views.dll
+C:\Users\kaunda.dum\source\repos\EazyMobileRegPortal\EazyMobileRegPortal\bin\Debug\netcoreapp3.1\EazyMobileRegPortal.Views.pdb
+C:\Users\kaunda.dum\source\repos\EazyMobileRegPortal\EazyMobileRegPortal\obj\Debug\netcoreapp3.1\EazyMobileRegPortal.csprojAssemblyReference.cache
+C:\Users\kaunda.dum\source\repos\EazyMobileRegPortal\EazyMobileRegPortal\obj\Debug\netcoreapp3.1\EazyMobileRegPortal.RazorComponent.input.cache
+C:\Users\kaunda.dum\source\repos\EazyMobileRegPortal\EazyMobileRegPortal\obj\Debug\netcoreapp3.1\RazorDeclaration\App.razor.g.cs
+C:\Users\kaunda.dum\source\repos\EazyMobileRegPortal\EazyMobileRegPortal\obj\Debug\netcoreapp3.1\RazorDeclaration\Pages\Error.razor.g.cs
+C:\Users\kaunda.dum\source\repos\EazyMobileRegPortal\EazyMobileRegPortal\obj\Debug\netcoreapp3.1\RazorDeclaration\Pages\Index.razor.g.cs
+C:\Users\kaunda.dum\source\repos\EazyMobileRegPortal\EazyMobileRegPortal\obj\Debug\netcoreapp3.1\RazorDeclaration\Shared\MainLayout.razor.g.cs
+C:\Users\kaunda.dum\source\repos\EazyMobileRegPortal\EazyMobileRegPortal\obj\Debug\netcoreapp3.1\RazorDeclaration\Shared\NavMenu.razor.g.cs
+C:\Users\kaunda.dum\source\repos\EazyMobileRegPortal\EazyMobileRegPortal\obj\Debug\netcoreapp3.1\RazorDeclaration\_Imports.razor.g.cs
+C:\Users\kaunda.dum\source\repos\EazyMobileRegPortal\EazyMobileRegPortal\obj\Debug\netcoreapp3.1\EazyMobileRegPortal.TagHelpers.input.cache
+C:\Users\kaunda.dum\source\repos\EazyMobileRegPortal\EazyMobileRegPortal\obj\Debug\netcoreapp3.1\EazyMobileRegPortal.TagHelpers.output.cache
+C:\Users\kaunda.dum\source\repos\EazyMobileRegPortal\EazyMobileRegPortal\obj\Debug\netcoreapp3.1\EazyMobileRegPortal.RazorCoreGenerate.cache
+C:\Users\kaunda.dum\source\repos\EazyMobileRegPortal\EazyMobileRegPortal\obj\Debug\netcoreapp3.1\Razor\Pages\_Host.cshtml.g.cs
+C:\Users\kaunda.dum\source\repos\EazyMobileRegPortal\EazyMobileRegPortal\obj\Debug\netcoreapp3.1\EazyMobileRegPortal.RazorAssemblyInfo.cache
+C:\Users\kaunda.dum\source\repos\EazyMobileRegPortal\EazyMobileRegPortal\obj\Debug\netcoreapp3.1\EazyMobileRegPortal.RazorAssemblyInfo.cs
+C:\Users\kaunda.dum\source\repos\EazyMobileRegPortal\EazyMobileRegPortal\obj\Debug\netcoreapp3.1\EazyMobileRegPortal.AssemblyInfoInputs.cache
+C:\Users\kaunda.dum\source\repos\EazyMobileRegPortal\EazyMobileRegPortal\obj\Debug\netcoreapp3.1\EazyMobileRegPortal.AssemblyInfo.cs
+C:\Users\kaunda.dum\source\repos\EazyMobileRegPortal\EazyMobileRegPortal\obj\Debug\netcoreapp3.1\EazyMobileRegPortal.RazorTargetAssemblyInfo.cache
+C:\Users\kaunda.dum\source\repos\EazyMobileRegPortal\EazyMobileRegPortal\obj\Debug\netcoreapp3.1\EazyMobileRegPortal.RazorTargetAssemblyInfo.cs
+C:\Users\kaunda.dum\source\repos\EazyMobileRegPortal\EazyMobileRegPortal\obj\Debug\netcoreapp3.1\EazyMobileRegPortal.Views.pdb
+C:\Users\kaunda.dum\source\repos\EazyMobileRegPortal\EazyMobileRegPortal\obj\Debug\netcoreapp3.1\staticwebassets\EazyMobileRegPortal.StaticWebAssets.Manifest.cache
+C:\Users\kaunda.dum\source\repos\EazyMobileRegPortal\EazyMobileRegPortal\obj\Debug\netcoreapp3.1\staticwebassets\EazyMobileRegPortal.StaticWebAssets.xml
+C:\Users\kaunda.dum\source\repos\EazyMobileRegPortal\EazyMobileRegPortal\obj\Debug\netcoreapp3.1\EazyMobileRegPortal.dll
+C:\Users\kaunda.dum\source\repos\EazyMobileRegPortal\EazyMobileRegPortal\obj\Debug\netcoreapp3.1\EazyMobileRegPortal.pdb
+C:\Users\kaunda.dum\source\repos\EazyMobileRegPortal\EazyMobileRegPortal\obj\Debug\netcoreapp3.1\EazyMobileRegPortal.genruntimeconfig.cache
+C:\Users\kaunda.dum\source\repos\EazyMobileRegPortal\EazyMobileRegPortal\obj\Debug\netcoreapp3.1\EazyMobileRegPortal.csproj.CopyComplete
+C:\Users\kaunda.dum\source\repos\EazyMobileRegPortal\EazyMobileRegPortal\bin\Debug\netcoreapp3.1\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\kaunda.dum\source\repos\EazyMobileRegPortal\EazyMobileRegPortal\bin\Debug\netcoreapp3.1\Microsoft.Bcl.HashCode.dll
+C:\Users\kaunda.dum\source\repos\EazyMobileRegPortal\EazyMobileRegPortal\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.dll
+C:\Users\kaunda.dum\source\repos\EazyMobileRegPortal\EazyMobileRegPortal\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\kaunda.dum\source\repos\EazyMobileRegPortal\EazyMobileRegPortal\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Abstractions.dll
+C:\Users\kaunda.dum\source\repos\EazyMobileRegPortal\EazyMobileRegPortal\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\kaunda.dum\source\repos\EazyMobileRegPortal\EazyMobileRegPortal\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.dll
+C:\Users\kaunda.dum\source\repos\EazyMobileRegPortal\EazyMobileRegPortal\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\kaunda.dum\source\repos\EazyMobileRegPortal\EazyMobileRegPortal\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Binder.dll
+C:\Users\kaunda.dum\source\repos\EazyMobileRegPortal\EazyMobileRegPortal\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\kaunda.dum\source\repos\EazyMobileRegPortal\EazyMobileRegPortal\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\kaunda.dum\source\repos\EazyMobileRegPortal\EazyMobileRegPortal\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.dll
+C:\Users\kaunda.dum\source\repos\EazyMobileRegPortal\EazyMobileRegPortal\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\kaunda.dum\source\repos\EazyMobileRegPortal\EazyMobileRegPortal\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Options.dll
+C:\Users\kaunda.dum\source\repos\EazyMobileRegPortal\EazyMobileRegPortal\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Primitives.dll
+C:\Users\kaunda.dum\source\repos\EazyMobileRegPortal\EazyMobileRegPortal\bin\Debug\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\kaunda.dum\source\repos\EazyMobileRegPortal\EazyMobileRegPortal\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\kaunda.dum\source\repos\EazyMobileRegPortal\EazyMobileRegPortal\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\kaunda.dum\source\repos\EazyMobileRegPortal\EazyMobileRegPortal\bin\Debug\netcoreapp3.1\Microsoft.Identity.Client.dll
+C:\Users\kaunda.dum\source\repos\EazyMobileRegPortal\EazyMobileRegPortal\bin\Debug\netcoreapp3.1\System.Configuration.ConfigurationManager.dll
+C:\Users\kaunda.dum\source\repos\EazyMobileRegPortal\EazyMobileRegPortal\bin\Debug\netcoreapp3.1\System.Runtime.Caching.dll
+C:\Users\kaunda.dum\source\repos\EazyMobileRegPortal\EazyMobileRegPortal\bin\Debug\netcoreapp3.1\System.Security.Cryptography.ProtectedData.dll
+C:\Users\kaunda.dum\source\repos\EazyMobileRegPortal\EazyMobileRegPortal\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\Microsoft.Data.SqlClient.dll
+C:\Users\kaunda.dum\source\repos\EazyMobileRegPortal\EazyMobileRegPortal\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\Microsoft.Data.SqlClient.dll
+C:\Users\kaunda.dum\source\repos\EazyMobileRegPortal\EazyMobileRegPortal\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\sni.dll
+C:\Users\kaunda.dum\source\repos\EazyMobileRegPortal\EazyMobileRegPortal\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\sni.dll
+C:\Users\kaunda.dum\source\repos\EazyMobileRegPortal\EazyMobileRegPortal\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\sni.dll
+C:\Users\kaunda.dum\source\repos\EazyMobileRegPortal\EazyMobileRegPortal\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.0\System.Runtime.Caching.dll
+C:\Users\kaunda.dum\source\repos\EazyMobileRegPortal\EazyMobileRegPortal\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.0\System.Runtime.Caching.dll
+C:\Users\kaunda.dum\source\repos\EazyMobileRegPortal\EazyMobileRegPortal\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\kaunda.dum\source\repos\EazyMobileRegPortal\EazyMobileRegPortal\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\kaunda.dum\source\repos\EazyMobileRegPortal\EazyMobileRegPortal\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Razor.Language.dll
+C:\Users\kaunda.dum\source\repos\EazyMobileRegPortal\EazyMobileRegPortal\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.dll
+C:\Users\kaunda.dum\source\repos\EazyMobileRegPortal\EazyMobileRegPortal\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\kaunda.dum\source\repos\EazyMobileRegPortal\EazyMobileRegPortal\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+C:\Users\kaunda.dum\source\repos\EazyMobileRegPortal\EazyMobileRegPortal\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.Razor.dll
+C:\Users\kaunda.dum\source\repos\EazyMobileRegPortal\EazyMobileRegPortal\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.Workspaces.dll
+C:\Users\kaunda.dum\source\repos\EazyMobileRegPortal\EazyMobileRegPortal\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.dll
+C:\Users\kaunda.dum\source\repos\EazyMobileRegPortal\EazyMobileRegPortal\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.Contracts.dll
+C:\Users\kaunda.dum\source\repos\EazyMobileRegPortal\EazyMobileRegPortal\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.Core.dll
+C:\Users\kaunda.dum\source\repos\EazyMobileRegPortal\EazyMobileRegPortal\bin\Debug\netcoreapp3.1\dotnet-aspnet-codegenerator-design.dll
+C:\Users\kaunda.dum\source\repos\EazyMobileRegPortal\EazyMobileRegPortal\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.EntityFrameworkCore.dll
+C:\Users\kaunda.dum\source\repos\EazyMobileRegPortal\EazyMobileRegPortal\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.Templating.dll
+C:\Users\kaunda.dum\source\repos\EazyMobileRegPortal\EazyMobileRegPortal\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.Utils.dll
+C:\Users\kaunda.dum\source\repos\EazyMobileRegPortal\EazyMobileRegPortal\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGenerators.Mvc.dll
+C:\Users\kaunda.dum\source\repos\EazyMobileRegPortal\EazyMobileRegPortal\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+C:\Users\kaunda.dum\source\repos\EazyMobileRegPortal\EazyMobileRegPortal\bin\Debug\netcoreapp3.1\NuGet.Frameworks.dll
+C:\Users\kaunda.dum\source\repos\EazyMobileRegPortal\EazyMobileRegPortal\bin\Debug\netcoreapp3.1\System.Composition.AttributedModel.dll
+C:\Users\kaunda.dum\source\repos\EazyMobileRegPortal\EazyMobileRegPortal\bin\Debug\netcoreapp3.1\System.Composition.Convention.dll
+C:\Users\kaunda.dum\source\repos\EazyMobileRegPortal\EazyMobileRegPortal\bin\Debug\netcoreapp3.1\System.Composition.Hosting.dll
+C:\Users\kaunda.dum\source\repos\EazyMobileRegPortal\EazyMobileRegPortal\bin\Debug\netcoreapp3.1\System.Composition.Runtime.dll
+C:\Users\kaunda.dum\source\repos\EazyMobileRegPortal\EazyMobileRegPortal\bin\Debug\netcoreapp3.1\System.Composition.TypedParts.dll
+C:\Users\kaunda.dum\source\repos\EazyMobileRegPortal\EazyMobileRegPortal\bin\Debug\netcoreapp3.1\cs\Microsoft.CodeAnalysis.resources.dll
+C:\Users\kaunda.dum\source\repos\EazyMobileRegPortal\EazyMobileRegPortal\bin\Debug\netcoreapp3.1\de\Microsoft.CodeAnalysis.resources.dll
+C:\Users\kaunda.dum\source\repos\EazyMobileRegPortal\EazyMobileRegPortal\bin\Debug\netcoreapp3.1\es\Microsoft.CodeAnalysis.resources.dll
+C:\Users\kaunda.dum\source\repos\EazyMobileRegPortal\EazyMobileRegPortal\bin\Debug\netcoreapp3.1\fr\Microsoft.CodeAnalysis.resources.dll
+C:\Users\kaunda.dum\source\repos\EazyMobileRegPortal\EazyMobileRegPortal\bin\Debug\netcoreapp3.1\it\Microsoft.CodeAnalysis.resources.dll
+C:\Users\kaunda.dum\source\repos\EazyMobileRegPortal\EazyMobileRegPortal\bin\Debug\netcoreapp3.1\ja\Microsoft.CodeAnalysis.resources.dll
+C:\Users\kaunda.dum\source\repos\EazyMobileRegPortal\EazyMobileRegPortal\bin\Debug\netcoreapp3.1\ko\Microsoft.CodeAnalysis.resources.dll
+C:\Users\kaunda.dum\source\repos\EazyMobileRegPortal\EazyMobileRegPortal\bin\Debug\netcoreapp3.1\pl\Microsoft.CodeAnalysis.resources.dll
+C:\Users\kaunda.dum\source\repos\EazyMobileRegPortal\EazyMobileRegPortal\bin\Debug\netcoreapp3.1\pt-BR\Microsoft.CodeAnalysis.resources.dll
+C:\Users\kaunda.dum\source\repos\EazyMobileRegPortal\EazyMobileRegPortal\bin\Debug\netcoreapp3.1\ru\Microsoft.CodeAnalysis.resources.dll
+C:\Users\kaunda.dum\source\repos\EazyMobileRegPortal\EazyMobileRegPortal\bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.resources.dll
+C:\Users\kaunda.dum\source\repos\EazyMobileRegPortal\EazyMobileRegPortal\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+C:\Users\kaunda.dum\source\repos\EazyMobileRegPortal\EazyMobileRegPortal\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+C:\Users\kaunda.dum\source\repos\EazyMobileRegPortal\EazyMobileRegPortal\bin\Debug\netcoreapp3.1\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\kaunda.dum\source\repos\EazyMobileRegPortal\EazyMobileRegPortal\bin\Debug\netcoreapp3.1\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\kaunda.dum\source\repos\EazyMobileRegPortal\EazyMobileRegPortal\bin\Debug\netcoreapp3.1\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\kaunda.dum\source\repos\EazyMobileRegPortal\EazyMobileRegPortal\bin\Debug\netcoreapp3.1\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\kaunda.dum\source\repos\EazyMobileRegPortal\EazyMobileRegPortal\bin\Debug\netcoreapp3.1\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\kaunda.dum\source\repos\EazyMobileRegPortal\EazyMobileRegPortal\bin\Debug\netcoreapp3.1\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\kaunda.dum\source\repos\EazyMobileRegPortal\EazyMobileRegPortal\bin\Debug\netcoreapp3.1\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\kaunda.dum\source\repos\EazyMobileRegPortal\EazyMobileRegPortal\bin\Debug\netcoreapp3.1\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\kaunda.dum\source\repos\EazyMobileRegPortal\EazyMobileRegPortal\bin\Debug\netcoreapp3.1\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\kaunda.dum\source\repos\EazyMobileRegPortal\EazyMobileRegPortal\bin\Debug\netcoreapp3.1\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\kaunda.dum\source\repos\EazyMobileRegPortal\EazyMobileRegPortal\bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\kaunda.dum\source\repos\EazyMobileRegPortal\EazyMobileRegPortal\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\kaunda.dum\source\repos\EazyMobileRegPortal\EazyMobileRegPortal\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\kaunda.dum\source\repos\EazyMobileRegPortal\EazyMobileRegPortal\bin\Debug\netcoreapp3.1\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\kaunda.dum\source\repos\EazyMobileRegPortal\EazyMobileRegPortal\bin\Debug\netcoreapp3.1\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\kaunda.dum\source\repos\EazyMobileRegPortal\EazyMobileRegPortal\bin\Debug\netcoreapp3.1\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\kaunda.dum\source\repos\EazyMobileRegPortal\EazyMobileRegPortal\bin\Debug\netcoreapp3.1\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\kaunda.dum\source\repos\EazyMobileRegPortal\EazyMobileRegPortal\bin\Debug\netcoreapp3.1\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\kaunda.dum\source\repos\EazyMobileRegPortal\EazyMobileRegPortal\bin\Debug\netcoreapp3.1\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\kaunda.dum\source\repos\EazyMobileRegPortal\EazyMobileRegPortal\bin\Debug\netcoreapp3.1\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\kaunda.dum\source\repos\EazyMobileRegPortal\EazyMobileRegPortal\bin\Debug\netcoreapp3.1\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\kaunda.dum\source\repos\EazyMobileRegPortal\EazyMobileRegPortal\bin\Debug\netcoreapp3.1\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\kaunda.dum\source\repos\EazyMobileRegPortal\EazyMobileRegPortal\bin\Debug\netcoreapp3.1\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\kaunda.dum\source\repos\EazyMobileRegPortal\EazyMobileRegPortal\bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\kaunda.dum\source\repos\EazyMobileRegPortal\EazyMobileRegPortal\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\kaunda.dum\source\repos\EazyMobileRegPortal\EazyMobileRegPortal\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\kaunda.dum\source\repos\EazyMobileRegPortal\EazyMobileRegPortal\bin\Debug\netcoreapp3.1\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\kaunda.dum\source\repos\EazyMobileRegPortal\EazyMobileRegPortal\bin\Debug\netcoreapp3.1\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\kaunda.dum\source\repos\EazyMobileRegPortal\EazyMobileRegPortal\bin\Debug\netcoreapp3.1\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\kaunda.dum\source\repos\EazyMobileRegPortal\EazyMobileRegPortal\bin\Debug\netcoreapp3.1\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\kaunda.dum\source\repos\EazyMobileRegPortal\EazyMobileRegPortal\bin\Debug\netcoreapp3.1\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\kaunda.dum\source\repos\EazyMobileRegPortal\EazyMobileRegPortal\bin\Debug\netcoreapp3.1\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\kaunda.dum\source\repos\EazyMobileRegPortal\EazyMobileRegPortal\bin\Debug\netcoreapp3.1\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\kaunda.dum\source\repos\EazyMobileRegPortal\EazyMobileRegPortal\bin\Debug\netcoreapp3.1\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\kaunda.dum\source\repos\EazyMobileRegPortal\EazyMobileRegPortal\bin\Debug\netcoreapp3.1\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\kaunda.dum\source\repos\EazyMobileRegPortal\EazyMobileRegPortal\bin\Debug\netcoreapp3.1\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\kaunda.dum\source\repos\EazyMobileRegPortal\EazyMobileRegPortal\bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\kaunda.dum\source\repos\EazyMobileRegPortal\EazyMobileRegPortal\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\kaunda.dum\source\repos\EazyMobileRegPortal\EazyMobileRegPortal\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\kaunda.dum\source\repos\EazyMobileRegPortal\EazyMobileRegPortal\bin\Debug\netcoreapp3.1\AutoMapper.dll
+C:\Users\kaunda.dum\source\repos\EazyMobileRegPortal\EazyMobileRegPortal\bin\Debug\netcoreapp3.1\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+C:\Users\kaunda.dum\source\repos\EazyMobileRegPortal\EazyMobileRegPortal\obj\Debug\netcoreapp3.1\EazyMobileRegPortal.csproj.CoreCompileInputs.cache
+C:\Users\kaunda.dum\source\repos\EazyMobileRegPortal\EazyMobileRegPortal\obj\Debug\netcoreapp3.1\EazyMobileRegPortal.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\kaunda.dum\source\repos\EazyMobileRegPortal\EazyMobileRegPortal\obj\Debug\netcoreapp3.1\RazorDeclaration\Pages\AccessDenied.razor.g.cs
+C:\Users\kaunda.dum\source\repos\EazyMobileRegPortal\EazyMobileRegPortal\obj\Debug\netcoreapp3.1\RazorDeclaration\Pages\Checked.razor.g.cs
+C:\Users\kaunda.dum\source\repos\EazyMobileRegPortal\EazyMobileRegPortal\obj\Debug\netcoreapp3.1\RazorDeclaration\Pages\CheckedApprovals.razor.g.cs
+C:\Users\kaunda.dum\source\repos\EazyMobileRegPortal\EazyMobileRegPortal\obj\Debug\netcoreapp3.1\RazorDeclaration\Pages\Unchecked.razor.g.cs
+C:\Users\kaunda.dum\source\repos\EazyMobileRegPortal\EazyMobileRegPortal\obj\Debug\netcoreapp3.1\RazorDeclaration\Pages\UncheckedApprovals.razor.g.cs
+C:\Users\kaunda.dum\source\repos\EazyMobileRegPortal\EazyMobileRegPortal\obj\Debug\netcoreapp3.1\RazorDeclaration\EazyMobileRegPortal.dll
+C:\Users\kaunda.dum\source\repos\EazyMobileRegPortal\EazyMobileRegPortal\obj\Debug\netcoreapp3.1\Razor\App.razor.g.cs
+C:\Users\kaunda.dum\source\repos\EazyMobileRegPortal\EazyMobileRegPortal\obj\Debug\netcoreapp3.1\Razor\Pages\AccessDenied.razor.g.cs
+C:\Users\kaunda.dum\source\repos\EazyMobileRegPortal\EazyMobileRegPortal\obj\Debug\netcoreapp3.1\Razor\Pages\Checked.razor.g.cs
+C:\Users\kaunda.dum\source\repos\EazyMobileRegPortal\EazyMobileRegPortal\obj\Debug\netcoreapp3.1\Razor\Pages\CheckedApprovals.razor.g.cs
+C:\Users\kaunda.dum\source\repos\EazyMobileRegPortal\EazyMobileRegPortal\obj\Debug\netcoreapp3.1\Razor\Pages\Error.razor.g.cs
+C:\Users\kaunda.dum\source\repos\EazyMobileRegPortal\EazyMobileRegPortal\obj\Debug\netcoreapp3.1\Razor\Pages\Index.razor.g.cs
+C:\Users\kaunda.dum\source\repos\EazyMobileRegPortal\EazyMobileRegPortal\obj\Debug\netcoreapp3.1\Razor\Pages\Unchecked.razor.g.cs
+C:\Users\kaunda.dum\source\repos\EazyMobileRegPortal\EazyMobileRegPortal\obj\Debug\netcoreapp3.1\Razor\Pages\UncheckedApprovals.razor.g.cs
+C:\Users\kaunda.dum\source\repos\EazyMobileRegPortal\EazyMobileRegPortal\obj\Debug\netcoreapp3.1\Razor\Shared\MainLayout.razor.g.cs
+C:\Users\kaunda.dum\source\repos\EazyMobileRegPortal\EazyMobileRegPortal\obj\Debug\netcoreapp3.1\Razor\Shared\NavMenu.razor.g.cs
+C:\Users\kaunda.dum\source\repos\EazyMobileRegPortal\EazyMobileRegPortal\obj\Debug\netcoreapp3.1\Razor\_Imports.razor.g.cs
+C:\Users\kaunda.dum\Documents\Visual Studio 2019\Projects\EazyMobileRegistrationPortal\EazyMobileRegPortal\EazyMobileRegPortal\bin\Debug\netcoreapp3.1\appsettings.Development.json
+C:\Users\kaunda.dum\Documents\Visual Studio 2019\Projects\EazyMobileRegistrationPortal\EazyMobileRegPortal\EazyMobileRegPortal\bin\Debug\netcoreapp3.1\appsettings.json
+C:\Users\kaunda.dum\Documents\Visual Studio 2019\Projects\EazyMobileRegistrationPortal\EazyMobileRegPortal\EazyMobileRegPortal\bin\Debug\netcoreapp3.1\Properties\launchSettings.json
+C:\Users\kaunda.dum\Documents\Visual Studio 2019\Projects\EazyMobileRegistrationPortal\EazyMobileRegPortal\EazyMobileRegPortal\bin\Debug\netcoreapp3.1\EazyMobileRegPortal.exe
+C:\Users\kaunda.dum\Documents\Visual Studio 2019\Projects\EazyMobileRegistrationPortal\EazyMobileRegPortal\EazyMobileRegPortal\bin\Debug\netcoreapp3.1\EazyMobileRegPortal.deps.json
+C:\Users\kaunda.dum\Documents\Visual Studio 2019\Projects\EazyMobileRegistrationPortal\EazyMobileRegPortal\EazyMobileRegPortal\bin\Debug\netcoreapp3.1\EazyMobileRegPortal.runtimeconfig.json
+C:\Users\kaunda.dum\Documents\Visual Studio 2019\Projects\EazyMobileRegistrationPortal\EazyMobileRegPortal\EazyMobileRegPortal\bin\Debug\netcoreapp3.1\EazyMobileRegPortal.runtimeconfig.dev.json
+C:\Users\kaunda.dum\Documents\Visual Studio 2019\Projects\EazyMobileRegistrationPortal\EazyMobileRegPortal\EazyMobileRegPortal\bin\Debug\netcoreapp3.1\EazyMobileRegPortal.dll
+C:\Users\kaunda.dum\Documents\Visual Studio 2019\Projects\EazyMobileRegistrationPortal\EazyMobileRegPortal\EazyMobileRegPortal\bin\Debug\netcoreapp3.1\EazyMobileRegPortal.pdb
+C:\Users\kaunda.dum\Documents\Visual Studio 2019\Projects\EazyMobileRegistrationPortal\EazyMobileRegPortal\EazyMobileRegPortal\bin\Debug\netcoreapp3.1\EazyMobileRegPortal.Views.dll
+C:\Users\kaunda.dum\Documents\Visual Studio 2019\Projects\EazyMobileRegistrationPortal\EazyMobileRegPortal\EazyMobileRegPortal\bin\Debug\netcoreapp3.1\EazyMobileRegPortal.Views.pdb
+C:\Users\kaunda.dum\Documents\Visual Studio 2019\Projects\EazyMobileRegistrationPortal\EazyMobileRegPortal\EazyMobileRegPortal\bin\Debug\netcoreapp3.1\AutoMapper.dll
+C:\Users\kaunda.dum\Documents\Visual Studio 2019\Projects\EazyMobileRegistrationPortal\EazyMobileRegPortal\EazyMobileRegPortal\bin\Debug\netcoreapp3.1\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+C:\Users\kaunda.dum\Documents\Visual Studio 2019\Projects\EazyMobileRegistrationPortal\EazyMobileRegPortal\EazyMobileRegPortal\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Razor.Language.dll
+C:\Users\kaunda.dum\Documents\Visual Studio 2019\Projects\EazyMobileRegistrationPortal\EazyMobileRegPortal\EazyMobileRegPortal\bin\Debug\netcoreapp3.1\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\kaunda.dum\Documents\Visual Studio 2019\Projects\EazyMobileRegistrationPortal\EazyMobileRegPortal\EazyMobileRegPortal\bin\Debug\netcoreapp3.1\Microsoft.Bcl.HashCode.dll
+C:\Users\kaunda.dum\Documents\Visual Studio 2019\Projects\EazyMobileRegistrationPortal\EazyMobileRegPortal\EazyMobileRegPortal\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.dll
+C:\Users\kaunda.dum\Documents\Visual Studio 2019\Projects\EazyMobileRegistrationPortal\EazyMobileRegPortal\EazyMobileRegPortal\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\kaunda.dum\Documents\Visual Studio 2019\Projects\EazyMobileRegistrationPortal\EazyMobileRegPortal\EazyMobileRegPortal\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+C:\Users\kaunda.dum\Documents\Visual Studio 2019\Projects\EazyMobileRegistrationPortal\EazyMobileRegPortal\EazyMobileRegPortal\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.Razor.dll
+C:\Users\kaunda.dum\Documents\Visual Studio 2019\Projects\EazyMobileRegistrationPortal\EazyMobileRegPortal\EazyMobileRegPortal\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.Workspaces.dll
+C:\Users\kaunda.dum\Documents\Visual Studio 2019\Projects\EazyMobileRegistrationPortal\EazyMobileRegPortal\EazyMobileRegPortal\bin\Debug\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\kaunda.dum\Documents\Visual Studio 2019\Projects\EazyMobileRegistrationPortal\EazyMobileRegPortal\EazyMobileRegPortal\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.dll
+C:\Users\kaunda.dum\Documents\Visual Studio 2019\Projects\EazyMobileRegistrationPortal\EazyMobileRegPortal\EazyMobileRegPortal\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\kaunda.dum\Documents\Visual Studio 2019\Projects\EazyMobileRegistrationPortal\EazyMobileRegPortal\EazyMobileRegPortal\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\kaunda.dum\Documents\Visual Studio 2019\Projects\EazyMobileRegistrationPortal\EazyMobileRegPortal\EazyMobileRegPortal\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\kaunda.dum\Documents\Visual Studio 2019\Projects\EazyMobileRegistrationPortal\EazyMobileRegPortal\EazyMobileRegPortal\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\kaunda.dum\Documents\Visual Studio 2019\Projects\EazyMobileRegistrationPortal\EazyMobileRegPortal\EazyMobileRegPortal\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Abstractions.dll
+C:\Users\kaunda.dum\Documents\Visual Studio 2019\Projects\EazyMobileRegistrationPortal\EazyMobileRegPortal\EazyMobileRegPortal\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\kaunda.dum\Documents\Visual Studio 2019\Projects\EazyMobileRegistrationPortal\EazyMobileRegPortal\EazyMobileRegPortal\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.dll
+C:\Users\kaunda.dum\Documents\Visual Studio 2019\Projects\EazyMobileRegistrationPortal\EazyMobileRegPortal\EazyMobileRegPortal\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\kaunda.dum\Documents\Visual Studio 2019\Projects\EazyMobileRegistrationPortal\EazyMobileRegPortal\EazyMobileRegPortal\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Binder.dll
+C:\Users\kaunda.dum\Documents\Visual Studio 2019\Projects\EazyMobileRegistrationPortal\EazyMobileRegPortal\EazyMobileRegPortal\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\kaunda.dum\Documents\Visual Studio 2019\Projects\EazyMobileRegistrationPortal\EazyMobileRegPortal\EazyMobileRegPortal\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\kaunda.dum\Documents\Visual Studio 2019\Projects\EazyMobileRegistrationPortal\EazyMobileRegPortal\EazyMobileRegPortal\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.dll
+C:\Users\kaunda.dum\Documents\Visual Studio 2019\Projects\EazyMobileRegistrationPortal\EazyMobileRegPortal\EazyMobileRegPortal\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\kaunda.dum\Documents\Visual Studio 2019\Projects\EazyMobileRegistrationPortal\EazyMobileRegPortal\EazyMobileRegPortal\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Options.dll
+C:\Users\kaunda.dum\Documents\Visual Studio 2019\Projects\EazyMobileRegistrationPortal\EazyMobileRegPortal\EazyMobileRegPortal\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Primitives.dll
+C:\Users\kaunda.dum\Documents\Visual Studio 2019\Projects\EazyMobileRegistrationPortal\EazyMobileRegPortal\EazyMobileRegPortal\bin\Debug\netcoreapp3.1\Microsoft.Identity.Client.dll
+C:\Users\kaunda.dum\Documents\Visual Studio 2019\Projects\EazyMobileRegistrationPortal\EazyMobileRegPortal\EazyMobileRegPortal\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.dll
+C:\Users\kaunda.dum\Documents\Visual Studio 2019\Projects\EazyMobileRegistrationPortal\EazyMobileRegPortal\EazyMobileRegPortal\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.Contracts.dll
+C:\Users\kaunda.dum\Documents\Visual Studio 2019\Projects\EazyMobileRegistrationPortal\EazyMobileRegPortal\EazyMobileRegPortal\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.Core.dll
+C:\Users\kaunda.dum\Documents\Visual Studio 2019\Projects\EazyMobileRegistrationPortal\EazyMobileRegPortal\EazyMobileRegPortal\bin\Debug\netcoreapp3.1\dotnet-aspnet-codegenerator-design.dll
+C:\Users\kaunda.dum\Documents\Visual Studio 2019\Projects\EazyMobileRegistrationPortal\EazyMobileRegPortal\EazyMobileRegPortal\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.EntityFrameworkCore.dll
+C:\Users\kaunda.dum\Documents\Visual Studio 2019\Projects\EazyMobileRegistrationPortal\EazyMobileRegPortal\EazyMobileRegPortal\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.Templating.dll
+C:\Users\kaunda.dum\Documents\Visual Studio 2019\Projects\EazyMobileRegistrationPortal\EazyMobileRegPortal\EazyMobileRegPortal\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.Utils.dll
+C:\Users\kaunda.dum\Documents\Visual Studio 2019\Projects\EazyMobileRegistrationPortal\EazyMobileRegPortal\EazyMobileRegPortal\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGenerators.Mvc.dll
+C:\Users\kaunda.dum\Documents\Visual Studio 2019\Projects\EazyMobileRegistrationPortal\EazyMobileRegPortal\EazyMobileRegPortal\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+C:\Users\kaunda.dum\Documents\Visual Studio 2019\Projects\EazyMobileRegistrationPortal\EazyMobileRegPortal\EazyMobileRegPortal\bin\Debug\netcoreapp3.1\NuGet.Frameworks.dll
+C:\Users\kaunda.dum\Documents\Visual Studio 2019\Projects\EazyMobileRegistrationPortal\EazyMobileRegPortal\EazyMobileRegPortal\bin\Debug\netcoreapp3.1\System.Composition.AttributedModel.dll
+C:\Users\kaunda.dum\Documents\Visual Studio 2019\Projects\EazyMobileRegistrationPortal\EazyMobileRegPortal\EazyMobileRegPortal\bin\Debug\netcoreapp3.1\System.Composition.Convention.dll
+C:\Users\kaunda.dum\Documents\Visual Studio 2019\Projects\EazyMobileRegistrationPortal\EazyMobileRegPortal\EazyMobileRegPortal\bin\Debug\netcoreapp3.1\System.Composition.Hosting.dll
+C:\Users\kaunda.dum\Documents\Visual Studio 2019\Projects\EazyMobileRegistrationPortal\EazyMobileRegPortal\EazyMobileRegPortal\bin\Debug\netcoreapp3.1\System.Composition.Runtime.dll
+C:\Users\kaunda.dum\Documents\Visual Studio 2019\Projects\EazyMobileRegistrationPortal\EazyMobileRegPortal\EazyMobileRegPortal\bin\Debug\netcoreapp3.1\System.Composition.TypedParts.dll
+C:\Users\kaunda.dum\Documents\Visual Studio 2019\Projects\EazyMobileRegistrationPortal\EazyMobileRegPortal\EazyMobileRegPortal\bin\Debug\netcoreapp3.1\System.Configuration.ConfigurationManager.dll
+C:\Users\kaunda.dum\Documents\Visual Studio 2019\Projects\EazyMobileRegistrationPortal\EazyMobileRegPortal\EazyMobileRegPortal\bin\Debug\netcoreapp3.1\System.Runtime.Caching.dll
+C:\Users\kaunda.dum\Documents\Visual Studio 2019\Projects\EazyMobileRegistrationPortal\EazyMobileRegPortal\EazyMobileRegPortal\bin\Debug\netcoreapp3.1\System.Security.Cryptography.ProtectedData.dll
+C:\Users\kaunda.dum\Documents\Visual Studio 2019\Projects\EazyMobileRegistrationPortal\EazyMobileRegPortal\EazyMobileRegPortal\bin\Debug\netcoreapp3.1\cs\Microsoft.CodeAnalysis.resources.dll
+C:\Users\kaunda.dum\Documents\Visual Studio 2019\Projects\EazyMobileRegistrationPortal\EazyMobileRegPortal\EazyMobileRegPortal\bin\Debug\netcoreapp3.1\de\Microsoft.CodeAnalysis.resources.dll
+C:\Users\kaunda.dum\Documents\Visual Studio 2019\Projects\EazyMobileRegistrationPortal\EazyMobileRegPortal\EazyMobileRegPortal\bin\Debug\netcoreapp3.1\es\Microsoft.CodeAnalysis.resources.dll
+C:\Users\kaunda.dum\Documents\Visual Studio 2019\Projects\EazyMobileRegistrationPortal\EazyMobileRegPortal\EazyMobileRegPortal\bin\Debug\netcoreapp3.1\fr\Microsoft.CodeAnalysis.resources.dll
+C:\Users\kaunda.dum\Documents\Visual Studio 2019\Projects\EazyMobileRegistrationPortal\EazyMobileRegPortal\EazyMobileRegPortal\bin\Debug\netcoreapp3.1\it\Microsoft.CodeAnalysis.resources.dll
+C:\Users\kaunda.dum\Documents\Visual Studio 2019\Projects\EazyMobileRegistrationPortal\EazyMobileRegPortal\EazyMobileRegPortal\bin\Debug\netcoreapp3.1\ja\Microsoft.CodeAnalysis.resources.dll
+C:\Users\kaunda.dum\Documents\Visual Studio 2019\Projects\EazyMobileRegistrationPortal\EazyMobileRegPortal\EazyMobileRegPortal\bin\Debug\netcoreapp3.1\ko\Microsoft.CodeAnalysis.resources.dll
+C:\Users\kaunda.dum\Documents\Visual Studio 2019\Projects\EazyMobileRegistrationPortal\EazyMobileRegPortal\EazyMobileRegPortal\bin\Debug\netcoreapp3.1\pl\Microsoft.CodeAnalysis.resources.dll
+C:\Users\kaunda.dum\Documents\Visual Studio 2019\Projects\EazyMobileRegistrationPortal\EazyMobileRegPortal\EazyMobileRegPortal\bin\Debug\netcoreapp3.1\pt-BR\Microsoft.CodeAnalysis.resources.dll
+C:\Users\kaunda.dum\Documents\Visual Studio 2019\Projects\EazyMobileRegistrationPortal\EazyMobileRegPortal\EazyMobileRegPortal\bin\Debug\netcoreapp3.1\ru\Microsoft.CodeAnalysis.resources.dll
+C:\Users\kaunda.dum\Documents\Visual Studio 2019\Projects\EazyMobileRegistrationPortal\EazyMobileRegPortal\EazyMobileRegPortal\bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.resources.dll
+C:\Users\kaunda.dum\Documents\Visual Studio 2019\Projects\EazyMobileRegistrationPortal\EazyMobileRegPortal\EazyMobileRegPortal\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+C:\Users\kaunda.dum\Documents\Visual Studio 2019\Projects\EazyMobileRegistrationPortal\EazyMobileRegPortal\EazyMobileRegPortal\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+C:\Users\kaunda.dum\Documents\Visual Studio 2019\Projects\EazyMobileRegistrationPortal\EazyMobileRegPortal\EazyMobileRegPortal\bin\Debug\netcoreapp3.1\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\kaunda.dum\Documents\Visual Studio 2019\Projects\EazyMobileRegistrationPortal\EazyMobileRegPortal\EazyMobileRegPortal\bin\Debug\netcoreapp3.1\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\kaunda.dum\Documents\Visual Studio 2019\Projects\EazyMobileRegistrationPortal\EazyMobileRegPortal\EazyMobileRegPortal\bin\Debug\netcoreapp3.1\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\kaunda.dum\Documents\Visual Studio 2019\Projects\EazyMobileRegistrationPortal\EazyMobileRegPortal\EazyMobileRegPortal\bin\Debug\netcoreapp3.1\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\kaunda.dum\Documents\Visual Studio 2019\Projects\EazyMobileRegistrationPortal\EazyMobileRegPortal\EazyMobileRegPortal\bin\Debug\netcoreapp3.1\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\kaunda.dum\Documents\Visual Studio 2019\Projects\EazyMobileRegistrationPortal\EazyMobileRegPortal\EazyMobileRegPortal\bin\Debug\netcoreapp3.1\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\kaunda.dum\Documents\Visual Studio 2019\Projects\EazyMobileRegistrationPortal\EazyMobileRegPortal\EazyMobileRegPortal\bin\Debug\netcoreapp3.1\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\kaunda.dum\Documents\Visual Studio 2019\Projects\EazyMobileRegistrationPortal\EazyMobileRegPortal\EazyMobileRegPortal\bin\Debug\netcoreapp3.1\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\kaunda.dum\Documents\Visual Studio 2019\Projects\EazyMobileRegistrationPortal\EazyMobileRegPortal\EazyMobileRegPortal\bin\Debug\netcoreapp3.1\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\kaunda.dum\Documents\Visual Studio 2019\Projects\EazyMobileRegistrationPortal\EazyMobileRegPortal\EazyMobileRegPortal\bin\Debug\netcoreapp3.1\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\kaunda.dum\Documents\Visual Studio 2019\Projects\EazyMobileRegistrationPortal\EazyMobileRegPortal\EazyMobileRegPortal\bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\kaunda.dum\Documents\Visual Studio 2019\Projects\EazyMobileRegistrationPortal\EazyMobileRegPortal\EazyMobileRegPortal\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\kaunda.dum\Documents\Visual Studio 2019\Projects\EazyMobileRegistrationPortal\EazyMobileRegPortal\EazyMobileRegPortal\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\kaunda.dum\Documents\Visual Studio 2019\Projects\EazyMobileRegistrationPortal\EazyMobileRegPortal\EazyMobileRegPortal\bin\Debug\netcoreapp3.1\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\kaunda.dum\Documents\Visual Studio 2019\Projects\EazyMobileRegistrationPortal\EazyMobileRegPortal\EazyMobileRegPortal\bin\Debug\netcoreapp3.1\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\kaunda.dum\Documents\Visual Studio 2019\Projects\EazyMobileRegistrationPortal\EazyMobileRegPortal\EazyMobileRegPortal\bin\Debug\netcoreapp3.1\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\kaunda.dum\Documents\Visual Studio 2019\Projects\EazyMobileRegistrationPortal\EazyMobileRegPortal\EazyMobileRegPortal\bin\Debug\netcoreapp3.1\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\kaunda.dum\Documents\Visual Studio 2019\Projects\EazyMobileRegistrationPortal\EazyMobileRegPortal\EazyMobileRegPortal\bin\Debug\netcoreapp3.1\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\kaunda.dum\Documents\Visual Studio 2019\Projects\EazyMobileRegistrationPortal\EazyMobileRegPortal\EazyMobileRegPortal\bin\Debug\netcoreapp3.1\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\kaunda.dum\Documents\Visual Studio 2019\Projects\EazyMobileRegistrationPortal\EazyMobileRegPortal\EazyMobileRegPortal\bin\Debug\netcoreapp3.1\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\kaunda.dum\Documents\Visual Studio 2019\Projects\EazyMobileRegistrationPortal\EazyMobileRegPortal\EazyMobileRegPortal\bin\Debug\netcoreapp3.1\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\kaunda.dum\Documents\Visual Studio 2019\Projects\EazyMobileRegistrationPortal\EazyMobileRegPortal\EazyMobileRegPortal\bin\Debug\netcoreapp3.1\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\kaunda.dum\Documents\Visual Studio 2019\Projects\EazyMobileRegistrationPortal\EazyMobileRegPortal\EazyMobileRegPortal\bin\Debug\netcoreapp3.1\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\kaunda.dum\Documents\Visual Studio 2019\Projects\EazyMobileRegistrationPortal\EazyMobileRegPortal\EazyMobileRegPortal\bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\kaunda.dum\Documents\Visual Studio 2019\Projects\EazyMobileRegistrationPortal\EazyMobileRegPortal\EazyMobileRegPortal\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\kaunda.dum\Documents\Visual Studio 2019\Projects\EazyMobileRegistrationPortal\EazyMobileRegPortal\EazyMobileRegPortal\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\kaunda.dum\Documents\Visual Studio 2019\Projects\EazyMobileRegistrationPortal\EazyMobileRegPortal\EazyMobileRegPortal\bin\Debug\netcoreapp3.1\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\kaunda.dum\Documents\Visual Studio 2019\Projects\EazyMobileRegistrationPortal\EazyMobileRegPortal\EazyMobileRegPortal\bin\Debug\netcoreapp3.1\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\kaunda.dum\Documents\Visual Studio 2019\Projects\EazyMobileRegistrationPortal\EazyMobileRegPortal\EazyMobileRegPortal\bin\Debug\netcoreapp3.1\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\kaunda.dum\Documents\Visual Studio 2019\Projects\EazyMobileRegistrationPortal\EazyMobileRegPortal\EazyMobileRegPortal\bin\Debug\netcoreapp3.1\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\kaunda.dum\Documents\Visual Studio 2019\Projects\EazyMobileRegistrationPortal\EazyMobileRegPortal\EazyMobileRegPortal\bin\Debug\netcoreapp3.1\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\kaunda.dum\Documents\Visual Studio 2019\Projects\EazyMobileRegistrationPortal\EazyMobileRegPortal\EazyMobileRegPortal\bin\Debug\netcoreapp3.1\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\kaunda.dum\Documents\Visual Studio 2019\Projects\EazyMobileRegistrationPortal\EazyMobileRegPortal\EazyMobileRegPortal\bin\Debug\netcoreapp3.1\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\kaunda.dum\Documents\Visual Studio 2019\Projects\EazyMobileRegistrationPortal\EazyMobileRegPortal\EazyMobileRegPortal\bin\Debug\netcoreapp3.1\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\kaunda.dum\Documents\Visual Studio 2019\Projects\EazyMobileRegistrationPortal\EazyMobileRegPortal\EazyMobileRegPortal\bin\Debug\netcoreapp3.1\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\kaunda.dum\Documents\Visual Studio 2019\Projects\EazyMobileRegistrationPortal\EazyMobileRegPortal\EazyMobileRegPortal\bin\Debug\netcoreapp3.1\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\kaunda.dum\Documents\Visual Studio 2019\Projects\EazyMobileRegistrationPortal\EazyMobileRegPortal\EazyMobileRegPortal\bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\kaunda.dum\Documents\Visual Studio 2019\Projects\EazyMobileRegistrationPortal\EazyMobileRegPortal\EazyMobileRegPortal\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\kaunda.dum\Documents\Visual Studio 2019\Projects\EazyMobileRegistrationPortal\EazyMobileRegPortal\EazyMobileRegPortal\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\kaunda.dum\Documents\Visual Studio 2019\Projects\EazyMobileRegistrationPortal\EazyMobileRegPortal\EazyMobileRegPortal\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\Microsoft.Data.SqlClient.dll
+C:\Users\kaunda.dum\Documents\Visual Studio 2019\Projects\EazyMobileRegistrationPortal\EazyMobileRegPortal\EazyMobileRegPortal\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\Microsoft.Data.SqlClient.dll
+C:\Users\kaunda.dum\Documents\Visual Studio 2019\Projects\EazyMobileRegistrationPortal\EazyMobileRegPortal\EazyMobileRegPortal\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\sni.dll
+C:\Users\kaunda.dum\Documents\Visual Studio 2019\Projects\EazyMobileRegistrationPortal\EazyMobileRegPortal\EazyMobileRegPortal\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\sni.dll
+C:\Users\kaunda.dum\Documents\Visual Studio 2019\Projects\EazyMobileRegistrationPortal\EazyMobileRegPortal\EazyMobileRegPortal\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\sni.dll
+C:\Users\kaunda.dum\Documents\Visual Studio 2019\Projects\EazyMobileRegistrationPortal\EazyMobileRegPortal\EazyMobileRegPortal\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.0\System.Runtime.Caching.dll
+C:\Users\kaunda.dum\Documents\Visual Studio 2019\Projects\EazyMobileRegistrationPortal\EazyMobileRegPortal\EazyMobileRegPortal\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.0\System.Runtime.Caching.dll
+C:\Users\kaunda.dum\Documents\Visual Studio 2019\Projects\EazyMobileRegistrationPortal\EazyMobileRegPortal\EazyMobileRegPortal\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\kaunda.dum\Documents\Visual Studio 2019\Projects\EazyMobileRegistrationPortal\EazyMobileRegPortal\EazyMobileRegPortal\obj\Debug\netcoreapp3.1\EazyMobileRegPortal.csprojAssemblyReference.cache
+C:\Users\kaunda.dum\Documents\Visual Studio 2019\Projects\EazyMobileRegistrationPortal\EazyMobileRegPortal\EazyMobileRegPortal\obj\Debug\netcoreapp3.1\EazyMobileRegPortal.csproj.CoreCompileInputs.cache
+C:\Users\kaunda.dum\Documents\Visual Studio 2019\Projects\EazyMobileRegistrationPortal\EazyMobileRegPortal\EazyMobileRegPortal\obj\Debug\netcoreapp3.1\EazyMobileRegPortal.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\kaunda.dum\Documents\Visual Studio 2019\Projects\EazyMobileRegistrationPortal\EazyMobileRegPortal\EazyMobileRegPortal\obj\Debug\netcoreapp3.1\EazyMobileRegPortal.RazorComponent.input.cache
+C:\Users\kaunda.dum\Documents\Visual Studio 2019\Projects\EazyMobileRegistrationPortal\EazyMobileRegPortal\EazyMobileRegPortal\obj\Debug\netcoreapp3.1\RazorDeclaration\App.razor.g.cs
+C:\Users\kaunda.dum\Documents\Visual Studio 2019\Projects\EazyMobileRegistrationPortal\EazyMobileRegPortal\EazyMobileRegPortal\obj\Debug\netcoreapp3.1\RazorDeclaration\Pages\AccessDenied.razor.g.cs
+C:\Users\kaunda.dum\Documents\Visual Studio 2019\Projects\EazyMobileRegistrationPortal\EazyMobileRegPortal\EazyMobileRegPortal\obj\Debug\netcoreapp3.1\RazorDeclaration\Pages\Checked.razor.g.cs
+C:\Users\kaunda.dum\Documents\Visual Studio 2019\Projects\EazyMobileRegistrationPortal\EazyMobileRegPortal\EazyMobileRegPortal\obj\Debug\netcoreapp3.1\RazorDeclaration\Pages\CheckedApprovals.razor.g.cs
+C:\Users\kaunda.dum\Documents\Visual Studio 2019\Projects\EazyMobileRegistrationPortal\EazyMobileRegPortal\EazyMobileRegPortal\obj\Debug\netcoreapp3.1\RazorDeclaration\Pages\Error.razor.g.cs
+C:\Users\kaunda.dum\Documents\Visual Studio 2019\Projects\EazyMobileRegistrationPortal\EazyMobileRegPortal\EazyMobileRegPortal\obj\Debug\netcoreapp3.1\RazorDeclaration\Pages\Index.razor.g.cs
+C:\Users\kaunda.dum\Documents\Visual Studio 2019\Projects\EazyMobileRegistrationPortal\EazyMobileRegPortal\EazyMobileRegPortal\obj\Debug\netcoreapp3.1\RazorDeclaration\Pages\Unchecked.razor.g.cs
+C:\Users\kaunda.dum\Documents\Visual Studio 2019\Projects\EazyMobileRegistrationPortal\EazyMobileRegPortal\EazyMobileRegPortal\obj\Debug\netcoreapp3.1\RazorDeclaration\Pages\UncheckedApprovals.razor.g.cs
+C:\Users\kaunda.dum\Documents\Visual Studio 2019\Projects\EazyMobileRegistrationPortal\EazyMobileRegPortal\EazyMobileRegPortal\obj\Debug\netcoreapp3.1\RazorDeclaration\Shared\MainLayout.razor.g.cs
+C:\Users\kaunda.dum\Documents\Visual Studio 2019\Projects\EazyMobileRegistrationPortal\EazyMobileRegPortal\EazyMobileRegPortal\obj\Debug\netcoreapp3.1\RazorDeclaration\Shared\NavMenu.razor.g.cs
+C:\Users\kaunda.dum\Documents\Visual Studio 2019\Projects\EazyMobileRegistrationPortal\EazyMobileRegPortal\EazyMobileRegPortal\obj\Debug\netcoreapp3.1\RazorDeclaration\_Imports.razor.g.cs
+C:\Users\kaunda.dum\Documents\Visual Studio 2019\Projects\EazyMobileRegistrationPortal\EazyMobileRegPortal\EazyMobileRegPortal\obj\Debug\netcoreapp3.1\RazorDeclaration\EazyMobileRegPortal.dll
+C:\Users\kaunda.dum\Documents\Visual Studio 2019\Projects\EazyMobileRegistrationPortal\EazyMobileRegPortal\EazyMobileRegPortal\obj\Debug\netcoreapp3.1\EazyMobileRegPortal.TagHelpers.input.cache
+C:\Users\kaunda.dum\Documents\Visual Studio 2019\Projects\EazyMobileRegistrationPortal\EazyMobileRegPortal\EazyMobileRegPortal\obj\Debug\netcoreapp3.1\EazyMobileRegPortal.TagHelpers.output.cache
+C:\Users\kaunda.dum\Documents\Visual Studio 2019\Projects\EazyMobileRegistrationPortal\EazyMobileRegPortal\EazyMobileRegPortal\obj\Debug\netcoreapp3.1\EazyMobileRegPortal.RazorCoreGenerate.cache
+C:\Users\kaunda.dum\Documents\Visual Studio 2019\Projects\EazyMobileRegistrationPortal\EazyMobileRegPortal\EazyMobileRegPortal\obj\Debug\netcoreapp3.1\Razor\App.razor.g.cs
+C:\Users\kaunda.dum\Documents\Visual Studio 2019\Projects\EazyMobileRegistrationPortal\EazyMobileRegPortal\EazyMobileRegPortal\obj\Debug\netcoreapp3.1\Razor\Pages\AccessDenied.razor.g.cs
+C:\Users\kaunda.dum\Documents\Visual Studio 2019\Projects\EazyMobileRegistrationPortal\EazyMobileRegPortal\EazyMobileRegPortal\obj\Debug\netcoreapp3.1\Razor\Pages\Checked.razor.g.cs
+C:\Users\kaunda.dum\Documents\Visual Studio 2019\Projects\EazyMobileRegistrationPortal\EazyMobileRegPortal\EazyMobileRegPortal\obj\Debug\netcoreapp3.1\Razor\Pages\CheckedApprovals.razor.g.cs
+C:\Users\kaunda.dum\Documents\Visual Studio 2019\Projects\EazyMobileRegistrationPortal\EazyMobileRegPortal\EazyMobileRegPortal\obj\Debug\netcoreapp3.1\Razor\Pages\Error.razor.g.cs
+C:\Users\kaunda.dum\Documents\Visual Studio 2019\Projects\EazyMobileRegistrationPortal\EazyMobileRegPortal\EazyMobileRegPortal\obj\Debug\netcoreapp3.1\Razor\Pages\Index.razor.g.cs
+C:\Users\kaunda.dum\Documents\Visual Studio 2019\Projects\EazyMobileRegistrationPortal\EazyMobileRegPortal\EazyMobileRegPortal\obj\Debug\netcoreapp3.1\Razor\Pages\Unchecked.razor.g.cs
+C:\Users\kaunda.dum\Documents\Visual Studio 2019\Projects\EazyMobileRegistrationPortal\EazyMobileRegPortal\EazyMobileRegPortal\obj\Debug\netcoreapp3.1\Razor\Pages\UncheckedApprovals.razor.g.cs
+C:\Users\kaunda.dum\Documents\Visual Studio 2019\Projects\EazyMobileRegistrationPortal\EazyMobileRegPortal\EazyMobileRegPortal\obj\Debug\netcoreapp3.1\Razor\Shared\MainLayout.razor.g.cs
+C:\Users\kaunda.dum\Documents\Visual Studio 2019\Projects\EazyMobileRegistrationPortal\EazyMobileRegPortal\EazyMobileRegPortal\obj\Debug\netcoreapp3.1\Razor\Shared\NavMenu.razor.g.cs
+C:\Users\kaunda.dum\Documents\Visual Studio 2019\Projects\EazyMobileRegistrationPortal\EazyMobileRegPortal\EazyMobileRegPortal\obj\Debug\netcoreapp3.1\Razor\_Imports.razor.g.cs
+C:\Users\kaunda.dum\Documents\Visual Studio 2019\Projects\EazyMobileRegistrationPortal\EazyMobileRegPortal\EazyMobileRegPortal\obj\Debug\netcoreapp3.1\Razor\Pages\_Host.cshtml.g.cs
+C:\Users\kaunda.dum\Documents\Visual Studio 2019\Projects\EazyMobileRegistrationPortal\EazyMobileRegPortal\EazyMobileRegPortal\obj\Debug\netcoreapp3.1\EazyMobileRegPortal.RazorAssemblyInfo.cache
+C:\Users\kaunda.dum\Documents\Visual Studio 2019\Projects\EazyMobileRegistrationPortal\EazyMobileRegPortal\EazyMobileRegPortal\obj\Debug\netcoreapp3.1\EazyMobileRegPortal.RazorAssemblyInfo.cs
+C:\Users\kaunda.dum\Documents\Visual Studio 2019\Projects\EazyMobileRegistrationPortal\EazyMobileRegPortal\EazyMobileRegPortal\obj\Debug\netcoreapp3.1\EazyMobileRegPortal.AssemblyInfoInputs.cache
+C:\Users\kaunda.dum\Documents\Visual Studio 2019\Projects\EazyMobileRegistrationPortal\EazyMobileRegPortal\EazyMobileRegPortal\obj\Debug\netcoreapp3.1\EazyMobileRegPortal.AssemblyInfo.cs
+C:\Users\kaunda.dum\Documents\Visual Studio 2019\Projects\EazyMobileRegistrationPortal\EazyMobileRegPortal\EazyMobileRegPortal\obj\Debug\netcoreapp3.1\EazyMobileRegPortal.RazorTargetAssemblyInfo.cache
+C:\Users\kaunda.dum\Documents\Visual Studio 2019\Projects\EazyMobileRegistrationPortal\EazyMobileRegPortal\EazyMobileRegPortal\obj\Debug\netcoreapp3.1\EazyMobileRegPortal.RazorTargetAssemblyInfo.cs
+C:\Users\kaunda.dum\Documents\Visual Studio 2019\Projects\EazyMobileRegistrationPortal\EazyMobileRegPortal\EazyMobileRegPortal\obj\Debug\netcoreapp3.1\EazyMobileRegPortal.Views.pdb
+C:\Users\kaunda.dum\Documents\Visual Studio 2019\Projects\EazyMobileRegistrationPortal\EazyMobileRegPortal\EazyMobileRegPortal\obj\Debug\netcoreapp3.1\EazyMobileRegPortal.csproj.CopyComplete
+C:\Users\kaunda.dum\Documents\Visual Studio 2019\Projects\EazyMobileRegistrationPortal\EazyMobileRegPortal\EazyMobileRegPortal\obj\Debug\netcoreapp3.1\staticwebassets\EazyMobileRegPortal.StaticWebAssets.Manifest.cache
+C:\Users\kaunda.dum\Documents\Visual Studio 2019\Projects\EazyMobileRegistrationPortal\EazyMobileRegPortal\EazyMobileRegPortal\obj\Debug\netcoreapp3.1\staticwebassets\EazyMobileRegPortal.StaticWebAssets.xml
+C:\Users\kaunda.dum\Documents\Visual Studio 2019\Projects\EazyMobileRegistrationPortal\EazyMobileRegPortal\EazyMobileRegPortal\obj\Debug\netcoreapp3.1\EazyMobileRegPortal.dll
+C:\Users\kaunda.dum\Documents\Visual Studio 2019\Projects\EazyMobileRegistrationPortal\EazyMobileRegPortal\EazyMobileRegPortal\obj\Debug\netcoreapp3.1\EazyMobileRegPortal.pdb
+C:\Users\kaunda.dum\Documents\Visual Studio 2019\Projects\EazyMobileRegistrationPortal\EazyMobileRegPortal\EazyMobileRegPortal\obj\Debug\netcoreapp3.1\EazyMobileRegPortal.genruntimeconfig.cache
+C:\Users\kadzitaye.m\Documents\Visual Studio 2019\Projects\eazymobileregistrationportal\EazyMobileRegPortal\EazyMobileRegPortal\obj\Debug\netcoreapp3.1\EazyMobileRegPortal.AssemblyInfoInputs.cache
+C:\Users\kadzitaye.m\Documents\Visual Studio 2019\Projects\eazymobileregistrationportal\EazyMobileRegPortal\EazyMobileRegPortal\obj\Debug\netcoreapp3.1\EazyMobileRegPortal.AssemblyInfo.cs
+C:\Users\kadzitaye.m\Documents\Visual Studio 2019\Projects\eazymobileregistrationportal\EazyMobileRegPortal\EazyMobileRegPortal\obj\Debug\netcoreapp3.1\EazyMobileRegPortal.csproj.CoreCompileInputs.cache
+C:\Users\kadzitaye.m\Documents\Visual Studio 2019\Projects\eazymobileregistrationportal\EazyMobileRegPortal\EazyMobileRegPortal\obj\Debug\netcoreapp3.1\EazyMobileRegPortal.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\kadzitaye.m\Documents\Visual Studio 2019\Projects\eazymobileregistrationportal\EazyMobileRegPortal\EazyMobileRegPortal\obj\Debug\netcoreapp3.1\EazyMobileRegPortal.RazorComponent.input.cache
+C:\Users\kadzitaye.m\Documents\Visual Studio 2019\Projects\eazymobileregistrationportal\EazyMobileRegPortal\EazyMobileRegPortal\obj\Debug\netcoreapp3.1\RazorDeclaration\App.razor.g.cs
+C:\Users\kadzitaye.m\Documents\Visual Studio 2019\Projects\eazymobileregistrationportal\EazyMobileRegPortal\EazyMobileRegPortal\obj\Debug\netcoreapp3.1\RazorDeclaration\Pages\AccessDenied.razor.g.cs
+C:\Users\kadzitaye.m\Documents\Visual Studio 2019\Projects\eazymobileregistrationportal\EazyMobileRegPortal\EazyMobileRegPortal\obj\Debug\netcoreapp3.1\RazorDeclaration\Pages\Checked.razor.g.cs
+C:\Users\kadzitaye.m\Documents\Visual Studio 2019\Projects\eazymobileregistrationportal\EazyMobileRegPortal\EazyMobileRegPortal\obj\Debug\netcoreapp3.1\RazorDeclaration\Pages\CheckedApprovals.razor.g.cs
+C:\Users\kadzitaye.m\Documents\Visual Studio 2019\Projects\eazymobileregistrationportal\EazyMobileRegPortal\EazyMobileRegPortal\obj\Debug\netcoreapp3.1\RazorDeclaration\Pages\DeniedCustomers.razor.g.cs
+C:\Users\kadzitaye.m\Documents\Visual Studio 2019\Projects\eazymobileregistrationportal\EazyMobileRegPortal\EazyMobileRegPortal\obj\Debug\netcoreapp3.1\RazorDeclaration\Pages\Error.razor.g.cs
+C:\Users\kadzitaye.m\Documents\Visual Studio 2019\Projects\eazymobileregistrationportal\EazyMobileRegPortal\EazyMobileRegPortal\obj\Debug\netcoreapp3.1\RazorDeclaration\Pages\Index.razor.g.cs
+C:\Users\kadzitaye.m\Documents\Visual Studio 2019\Projects\eazymobileregistrationportal\EazyMobileRegPortal\EazyMobileRegPortal\obj\Debug\netcoreapp3.1\RazorDeclaration\Pages\OperationSuccessful.razor.g.cs
+C:\Users\kadzitaye.m\Documents\Visual Studio 2019\Projects\eazymobileregistrationportal\EazyMobileRegPortal\EazyMobileRegPortal\obj\Debug\netcoreapp3.1\RazorDeclaration\Pages\Router.razor.g.cs
+C:\Users\kadzitaye.m\Documents\Visual Studio 2019\Projects\eazymobileregistrationportal\EazyMobileRegPortal\EazyMobileRegPortal\obj\Debug\netcoreapp3.1\RazorDeclaration\Pages\SignIn.razor.g.cs
+C:\Users\kadzitaye.m\Documents\Visual Studio 2019\Projects\eazymobileregistrationportal\EazyMobileRegPortal\EazyMobileRegPortal\obj\Debug\netcoreapp3.1\RazorDeclaration\Pages\Unchecked.razor.g.cs
+C:\Users\kadzitaye.m\Documents\Visual Studio 2019\Projects\eazymobileregistrationportal\EazyMobileRegPortal\EazyMobileRegPortal\obj\Debug\netcoreapp3.1\RazorDeclaration\Pages\UncheckedApprovals.razor.g.cs
+C:\Users\kadzitaye.m\Documents\Visual Studio 2019\Projects\eazymobileregistrationportal\EazyMobileRegPortal\EazyMobileRegPortal\obj\Debug\netcoreapp3.1\RazorDeclaration\Shared\MainLayout.razor.g.cs
+C:\Users\kadzitaye.m\Documents\Visual Studio 2019\Projects\eazymobileregistrationportal\EazyMobileRegPortal\EazyMobileRegPortal\obj\Debug\netcoreapp3.1\RazorDeclaration\Shared\NavMenu.razor.g.cs
+C:\Users\kadzitaye.m\Documents\Visual Studio 2019\Projects\eazymobileregistrationportal\EazyMobileRegPortal\EazyMobileRegPortal\obj\Debug\netcoreapp3.1\RazorDeclaration\_Imports.razor.g.cs
+C:\Users\kadzitaye.m\Documents\Visual Studio 2019\Projects\eazymobileregistrationportal\EazyMobileRegPortal\EazyMobileRegPortal\bin\Debug\netcoreapp3.1\appsettings.Development.json
+C:\Users\kadzitaye.m\Documents\Visual Studio 2019\Projects\eazymobileregistrationportal\EazyMobileRegPortal\EazyMobileRegPortal\bin\Debug\netcoreapp3.1\appsettings.json
+C:\Users\kadzitaye.m\Documents\Visual Studio 2019\Projects\eazymobileregistrationportal\EazyMobileRegPortal\EazyMobileRegPortal\bin\Debug\netcoreapp3.1\Properties\launchSettings.json
+C:\Users\kadzitaye.m\Documents\Visual Studio 2019\Projects\eazymobileregistrationportal\EazyMobileRegPortal\EazyMobileRegPortal\bin\Debug\netcoreapp3.1\EazyMobileRegPortal.exe
+C:\Users\kadzitaye.m\Documents\Visual Studio 2019\Projects\eazymobileregistrationportal\EazyMobileRegPortal\EazyMobileRegPortal\bin\Debug\netcoreapp3.1\EazyMobileRegPortal.deps.json
+C:\Users\kadzitaye.m\Documents\Visual Studio 2019\Projects\eazymobileregistrationportal\EazyMobileRegPortal\EazyMobileRegPortal\bin\Debug\netcoreapp3.1\EazyMobileRegPortal.runtimeconfig.json
+C:\Users\kadzitaye.m\Documents\Visual Studio 2019\Projects\eazymobileregistrationportal\EazyMobileRegPortal\EazyMobileRegPortal\bin\Debug\netcoreapp3.1\EazyMobileRegPortal.runtimeconfig.dev.json
+C:\Users\kadzitaye.m\Documents\Visual Studio 2019\Projects\eazymobileregistrationportal\EazyMobileRegPortal\EazyMobileRegPortal\bin\Debug\netcoreapp3.1\EazyMobileRegPortal.dll
+C:\Users\kadzitaye.m\Documents\Visual Studio 2019\Projects\eazymobileregistrationportal\EazyMobileRegPortal\EazyMobileRegPortal\bin\Debug\netcoreapp3.1\EazyMobileRegPortal.pdb
+C:\Users\kadzitaye.m\Documents\Visual Studio 2019\Projects\eazymobileregistrationportal\EazyMobileRegPortal\EazyMobileRegPortal\bin\Debug\netcoreapp3.1\EazyMobileRegPortal.Views.dll
+C:\Users\kadzitaye.m\Documents\Visual Studio 2019\Projects\eazymobileregistrationportal\EazyMobileRegPortal\EazyMobileRegPortal\bin\Debug\netcoreapp3.1\EazyMobileRegPortal.Views.pdb
+C:\Users\kadzitaye.m\Documents\Visual Studio 2019\Projects\eazymobileregistrationportal\EazyMobileRegPortal\EazyMobileRegPortal\bin\Debug\netcoreapp3.1\AutoMapper.dll
+C:\Users\kadzitaye.m\Documents\Visual Studio 2019\Projects\eazymobileregistrationportal\EazyMobileRegPortal\EazyMobileRegPortal\bin\Debug\netcoreapp3.1\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+C:\Users\kadzitaye.m\Documents\Visual Studio 2019\Projects\eazymobileregistrationportal\EazyMobileRegPortal\EazyMobileRegPortal\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Razor.Language.dll
+C:\Users\kadzitaye.m\Documents\Visual Studio 2019\Projects\eazymobileregistrationportal\EazyMobileRegPortal\EazyMobileRegPortal\bin\Debug\netcoreapp3.1\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\kadzitaye.m\Documents\Visual Studio 2019\Projects\eazymobileregistrationportal\EazyMobileRegPortal\EazyMobileRegPortal\bin\Debug\netcoreapp3.1\Microsoft.Bcl.HashCode.dll
+C:\Users\kadzitaye.m\Documents\Visual Studio 2019\Projects\eazymobileregistrationportal\EazyMobileRegPortal\EazyMobileRegPortal\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.dll
+C:\Users\kadzitaye.m\Documents\Visual Studio 2019\Projects\eazymobileregistrationportal\EazyMobileRegPortal\EazyMobileRegPortal\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\kadzitaye.m\Documents\Visual Studio 2019\Projects\eazymobileregistrationportal\EazyMobileRegPortal\EazyMobileRegPortal\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+C:\Users\kadzitaye.m\Documents\Visual Studio 2019\Projects\eazymobileregistrationportal\EazyMobileRegPortal\EazyMobileRegPortal\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.Razor.dll
+C:\Users\kadzitaye.m\Documents\Visual Studio 2019\Projects\eazymobileregistrationportal\EazyMobileRegPortal\EazyMobileRegPortal\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.Workspaces.dll
+C:\Users\kadzitaye.m\Documents\Visual Studio 2019\Projects\eazymobileregistrationportal\EazyMobileRegPortal\EazyMobileRegPortal\bin\Debug\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\kadzitaye.m\Documents\Visual Studio 2019\Projects\eazymobileregistrationportal\EazyMobileRegPortal\EazyMobileRegPortal\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.dll
+C:\Users\kadzitaye.m\Documents\Visual Studio 2019\Projects\eazymobileregistrationportal\EazyMobileRegPortal\EazyMobileRegPortal\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\kadzitaye.m\Documents\Visual Studio 2019\Projects\eazymobileregistrationportal\EazyMobileRegPortal\EazyMobileRegPortal\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\kadzitaye.m\Documents\Visual Studio 2019\Projects\eazymobileregistrationportal\EazyMobileRegPortal\EazyMobileRegPortal\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\kadzitaye.m\Documents\Visual Studio 2019\Projects\eazymobileregistrationportal\EazyMobileRegPortal\EazyMobileRegPortal\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\kadzitaye.m\Documents\Visual Studio 2019\Projects\eazymobileregistrationportal\EazyMobileRegPortal\EazyMobileRegPortal\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Abstractions.dll
+C:\Users\kadzitaye.m\Documents\Visual Studio 2019\Projects\eazymobileregistrationportal\EazyMobileRegPortal\EazyMobileRegPortal\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\kadzitaye.m\Documents\Visual Studio 2019\Projects\eazymobileregistrationportal\EazyMobileRegPortal\EazyMobileRegPortal\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.dll
+C:\Users\kadzitaye.m\Documents\Visual Studio 2019\Projects\eazymobileregistrationportal\EazyMobileRegPortal\EazyMobileRegPortal\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\kadzitaye.m\Documents\Visual Studio 2019\Projects\eazymobileregistrationportal\EazyMobileRegPortal\EazyMobileRegPortal\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Binder.dll
+C:\Users\kadzitaye.m\Documents\Visual Studio 2019\Projects\eazymobileregistrationportal\EazyMobileRegPortal\EazyMobileRegPortal\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\kadzitaye.m\Documents\Visual Studio 2019\Projects\eazymobileregistrationportal\EazyMobileRegPortal\EazyMobileRegPortal\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\kadzitaye.m\Documents\Visual Studio 2019\Projects\eazymobileregistrationportal\EazyMobileRegPortal\EazyMobileRegPortal\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.dll
+C:\Users\kadzitaye.m\Documents\Visual Studio 2019\Projects\eazymobileregistrationportal\EazyMobileRegPortal\EazyMobileRegPortal\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\kadzitaye.m\Documents\Visual Studio 2019\Projects\eazymobileregistrationportal\EazyMobileRegPortal\EazyMobileRegPortal\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Options.dll
+C:\Users\kadzitaye.m\Documents\Visual Studio 2019\Projects\eazymobileregistrationportal\EazyMobileRegPortal\EazyMobileRegPortal\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Primitives.dll
+C:\Users\kadzitaye.m\Documents\Visual Studio 2019\Projects\eazymobileregistrationportal\EazyMobileRegPortal\EazyMobileRegPortal\bin\Debug\netcoreapp3.1\Microsoft.Identity.Client.dll
+C:\Users\kadzitaye.m\Documents\Visual Studio 2019\Projects\eazymobileregistrationportal\EazyMobileRegPortal\EazyMobileRegPortal\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.dll
+C:\Users\kadzitaye.m\Documents\Visual Studio 2019\Projects\eazymobileregistrationportal\EazyMobileRegPortal\EazyMobileRegPortal\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.Contracts.dll
+C:\Users\kadzitaye.m\Documents\Visual Studio 2019\Projects\eazymobileregistrationportal\EazyMobileRegPortal\EazyMobileRegPortal\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.Core.dll
+C:\Users\kadzitaye.m\Documents\Visual Studio 2019\Projects\eazymobileregistrationportal\EazyMobileRegPortal\EazyMobileRegPortal\bin\Debug\netcoreapp3.1\dotnet-aspnet-codegenerator-design.dll
+C:\Users\kadzitaye.m\Documents\Visual Studio 2019\Projects\eazymobileregistrationportal\EazyMobileRegPortal\EazyMobileRegPortal\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.EntityFrameworkCore.dll
+C:\Users\kadzitaye.m\Documents\Visual Studio 2019\Projects\eazymobileregistrationportal\EazyMobileRegPortal\EazyMobileRegPortal\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.Templating.dll
+C:\Users\kadzitaye.m\Documents\Visual Studio 2019\Projects\eazymobileregistrationportal\EazyMobileRegPortal\EazyMobileRegPortal\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.Utils.dll
+C:\Users\kadzitaye.m\Documents\Visual Studio 2019\Projects\eazymobileregistrationportal\EazyMobileRegPortal\EazyMobileRegPortal\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGenerators.Mvc.dll
+C:\Users\kadzitaye.m\Documents\Visual Studio 2019\Projects\eazymobileregistrationportal\EazyMobileRegPortal\EazyMobileRegPortal\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+C:\Users\kadzitaye.m\Documents\Visual Studio 2019\Projects\eazymobileregistrationportal\EazyMobileRegPortal\EazyMobileRegPortal\bin\Debug\netcoreapp3.1\NuGet.Frameworks.dll
+C:\Users\kadzitaye.m\Documents\Visual Studio 2019\Projects\eazymobileregistrationportal\EazyMobileRegPortal\EazyMobileRegPortal\bin\Debug\netcoreapp3.1\System.Composition.AttributedModel.dll
+C:\Users\kadzitaye.m\Documents\Visual Studio 2019\Projects\eazymobileregistrationportal\EazyMobileRegPortal\EazyMobileRegPortal\bin\Debug\netcoreapp3.1\System.Composition.Convention.dll
+C:\Users\kadzitaye.m\Documents\Visual Studio 2019\Projects\eazymobileregistrationportal\EazyMobileRegPortal\EazyMobileRegPortal\bin\Debug\netcoreapp3.1\System.Composition.Hosting.dll
+C:\Users\kadzitaye.m\Documents\Visual Studio 2019\Projects\eazymobileregistrationportal\EazyMobileRegPortal\EazyMobileRegPortal\bin\Debug\netcoreapp3.1\System.Composition.Runtime.dll
+C:\Users\kadzitaye.m\Documents\Visual Studio 2019\Projects\eazymobileregistrationportal\EazyMobileRegPortal\EazyMobileRegPortal\bin\Debug\netcoreapp3.1\System.Composition.TypedParts.dll
+C:\Users\kadzitaye.m\Documents\Visual Studio 2019\Projects\eazymobileregistrationportal\EazyMobileRegPortal\EazyMobileRegPortal\bin\Debug\netcoreapp3.1\System.Configuration.ConfigurationManager.dll
+C:\Users\kadzitaye.m\Documents\Visual Studio 2019\Projects\eazymobileregistrationportal\EazyMobileRegPortal\EazyMobileRegPortal\bin\Debug\netcoreapp3.1\System.Runtime.Caching.dll
+C:\Users\kadzitaye.m\Documents\Visual Studio 2019\Projects\eazymobileregistrationportal\EazyMobileRegPortal\EazyMobileRegPortal\bin\Debug\netcoreapp3.1\System.Security.Cryptography.ProtectedData.dll
+C:\Users\kadzitaye.m\Documents\Visual Studio 2019\Projects\eazymobileregistrationportal\EazyMobileRegPortal\EazyMobileRegPortal\bin\Debug\netcoreapp3.1\cs\Microsoft.CodeAnalysis.resources.dll
+C:\Users\kadzitaye.m\Documents\Visual Studio 2019\Projects\eazymobileregistrationportal\EazyMobileRegPortal\EazyMobileRegPortal\bin\Debug\netcoreapp3.1\de\Microsoft.CodeAnalysis.resources.dll
+C:\Users\kadzitaye.m\Documents\Visual Studio 2019\Projects\eazymobileregistrationportal\EazyMobileRegPortal\EazyMobileRegPortal\bin\Debug\netcoreapp3.1\es\Microsoft.CodeAnalysis.resources.dll
+C:\Users\kadzitaye.m\Documents\Visual Studio 2019\Projects\eazymobileregistrationportal\EazyMobileRegPortal\EazyMobileRegPortal\bin\Debug\netcoreapp3.1\fr\Microsoft.CodeAnalysis.resources.dll
+C:\Users\kadzitaye.m\Documents\Visual Studio 2019\Projects\eazymobileregistrationportal\EazyMobileRegPortal\EazyMobileRegPortal\bin\Debug\netcoreapp3.1\it\Microsoft.CodeAnalysis.resources.dll
+C:\Users\kadzitaye.m\Documents\Visual Studio 2019\Projects\eazymobileregistrationportal\EazyMobileRegPortal\EazyMobileRegPortal\bin\Debug\netcoreapp3.1\ja\Microsoft.CodeAnalysis.resources.dll
+C:\Users\kadzitaye.m\Documents\Visual Studio 2019\Projects\eazymobileregistrationportal\EazyMobileRegPortal\EazyMobileRegPortal\bin\Debug\netcoreapp3.1\ko\Microsoft.CodeAnalysis.resources.dll
+C:\Users\kadzitaye.m\Documents\Visual Studio 2019\Projects\eazymobileregistrationportal\EazyMobileRegPortal\EazyMobileRegPortal\bin\Debug\netcoreapp3.1\pl\Microsoft.CodeAnalysis.resources.dll
+C:\Users\kadzitaye.m\Documents\Visual Studio 2019\Projects\eazymobileregistrationportal\EazyMobileRegPortal\EazyMobileRegPortal\bin\Debug\netcoreapp3.1\pt-BR\Microsoft.CodeAnalysis.resources.dll
+C:\Users\kadzitaye.m\Documents\Visual Studio 2019\Projects\eazymobileregistrationportal\EazyMobileRegPortal\EazyMobileRegPortal\bin\Debug\netcoreapp3.1\ru\Microsoft.CodeAnalysis.resources.dll
+C:\Users\kadzitaye.m\Documents\Visual Studio 2019\Projects\eazymobileregistrationportal\EazyMobileRegPortal\EazyMobileRegPortal\bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.resources.dll
+C:\Users\kadzitaye.m\Documents\Visual Studio 2019\Projects\eazymobileregistrationportal\EazyMobileRegPortal\EazyMobileRegPortal\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+C:\Users\kadzitaye.m\Documents\Visual Studio 2019\Projects\eazymobileregistrationportal\EazyMobileRegPortal\EazyMobileRegPortal\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+C:\Users\kadzitaye.m\Documents\Visual Studio 2019\Projects\eazymobileregistrationportal\EazyMobileRegPortal\EazyMobileRegPortal\bin\Debug\netcoreapp3.1\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\kadzitaye.m\Documents\Visual Studio 2019\Projects\eazymobileregistrationportal\EazyMobileRegPortal\EazyMobileRegPortal\bin\Debug\netcoreapp3.1\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\kadzitaye.m\Documents\Visual Studio 2019\Projects\eazymobileregistrationportal\EazyMobileRegPortal\EazyMobileRegPortal\bin\Debug\netcoreapp3.1\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\kadzitaye.m\Documents\Visual Studio 2019\Projects\eazymobileregistrationportal\EazyMobileRegPortal\EazyMobileRegPortal\bin\Debug\netcoreapp3.1\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\kadzitaye.m\Documents\Visual Studio 2019\Projects\eazymobileregistrationportal\EazyMobileRegPortal\EazyMobileRegPortal\bin\Debug\netcoreapp3.1\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\kadzitaye.m\Documents\Visual Studio 2019\Projects\eazymobileregistrationportal\EazyMobileRegPortal\EazyMobileRegPortal\bin\Debug\netcoreapp3.1\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\kadzitaye.m\Documents\Visual Studio 2019\Projects\eazymobileregistrationportal\EazyMobileRegPortal\EazyMobileRegPortal\bin\Debug\netcoreapp3.1\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\kadzitaye.m\Documents\Visual Studio 2019\Projects\eazymobileregistrationportal\EazyMobileRegPortal\EazyMobileRegPortal\bin\Debug\netcoreapp3.1\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\kadzitaye.m\Documents\Visual Studio 2019\Projects\eazymobileregistrationportal\EazyMobileRegPortal\EazyMobileRegPortal\bin\Debug\netcoreapp3.1\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\kadzitaye.m\Documents\Visual Studio 2019\Projects\eazymobileregistrationportal\EazyMobileRegPortal\EazyMobileRegPortal\bin\Debug\netcoreapp3.1\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\kadzitaye.m\Documents\Visual Studio 2019\Projects\eazymobileregistrationportal\EazyMobileRegPortal\EazyMobileRegPortal\bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\kadzitaye.m\Documents\Visual Studio 2019\Projects\eazymobileregistrationportal\EazyMobileRegPortal\EazyMobileRegPortal\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\kadzitaye.m\Documents\Visual Studio 2019\Projects\eazymobileregistrationportal\EazyMobileRegPortal\EazyMobileRegPortal\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\kadzitaye.m\Documents\Visual Studio 2019\Projects\eazymobileregistrationportal\EazyMobileRegPortal\EazyMobileRegPortal\bin\Debug\netcoreapp3.1\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\kadzitaye.m\Documents\Visual Studio 2019\Projects\eazymobileregistrationportal\EazyMobileRegPortal\EazyMobileRegPortal\bin\Debug\netcoreapp3.1\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\kadzitaye.m\Documents\Visual Studio 2019\Projects\eazymobileregistrationportal\EazyMobileRegPortal\EazyMobileRegPortal\bin\Debug\netcoreapp3.1\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\kadzitaye.m\Documents\Visual Studio 2019\Projects\eazymobileregistrationportal\EazyMobileRegPortal\EazyMobileRegPortal\bin\Debug\netcoreapp3.1\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\kadzitaye.m\Documents\Visual Studio 2019\Projects\eazymobileregistrationportal\EazyMobileRegPortal\EazyMobileRegPortal\bin\Debug\netcoreapp3.1\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\kadzitaye.m\Documents\Visual Studio 2019\Projects\eazymobileregistrationportal\EazyMobileRegPortal\EazyMobileRegPortal\bin\Debug\netcoreapp3.1\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\kadzitaye.m\Documents\Visual Studio 2019\Projects\eazymobileregistrationportal\EazyMobileRegPortal\EazyMobileRegPortal\bin\Debug\netcoreapp3.1\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\kadzitaye.m\Documents\Visual Studio 2019\Projects\eazymobileregistrationportal\EazyMobileRegPortal\EazyMobileRegPortal\bin\Debug\netcoreapp3.1\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\kadzitaye.m\Documents\Visual Studio 2019\Projects\eazymobileregistrationportal\EazyMobileRegPortal\EazyMobileRegPortal\bin\Debug\netcoreapp3.1\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\kadzitaye.m\Documents\Visual Studio 2019\Projects\eazymobileregistrationportal\EazyMobileRegPortal\EazyMobileRegPortal\bin\Debug\netcoreapp3.1\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\kadzitaye.m\Documents\Visual Studio 2019\Projects\eazymobileregistrationportal\EazyMobileRegPortal\EazyMobileRegPortal\bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\kadzitaye.m\Documents\Visual Studio 2019\Projects\eazymobileregistrationportal\EazyMobileRegPortal\EazyMobileRegPortal\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\kadzitaye.m\Documents\Visual Studio 2019\Projects\eazymobileregistrationportal\EazyMobileRegPortal\EazyMobileRegPortal\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\kadzitaye.m\Documents\Visual Studio 2019\Projects\eazymobileregistrationportal\EazyMobileRegPortal\EazyMobileRegPortal\bin\Debug\netcoreapp3.1\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\kadzitaye.m\Documents\Visual Studio 2019\Projects\eazymobileregistrationportal\EazyMobileRegPortal\EazyMobileRegPortal\bin\Debug\netcoreapp3.1\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\kadzitaye.m\Documents\Visual Studio 2019\Projects\eazymobileregistrationportal\EazyMobileRegPortal\EazyMobileRegPortal\bin\Debug\netcoreapp3.1\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\kadzitaye.m\Documents\Visual Studio 2019\Projects\eazymobileregistrationportal\EazyMobileRegPortal\EazyMobileRegPortal\bin\Debug\netcoreapp3.1\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\kadzitaye.m\Documents\Visual Studio 2019\Projects\eazymobileregistrationportal\EazyMobileRegPortal\EazyMobileRegPortal\bin\Debug\netcoreapp3.1\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\kadzitaye.m\Documents\Visual Studio 2019\Projects\eazymobileregistrationportal\EazyMobileRegPortal\EazyMobileRegPortal\bin\Debug\netcoreapp3.1\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\kadzitaye.m\Documents\Visual Studio 2019\Projects\eazymobileregistrationportal\EazyMobileRegPortal\EazyMobileRegPortal\bin\Debug\netcoreapp3.1\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\kadzitaye.m\Documents\Visual Studio 2019\Projects\eazymobileregistrationportal\EazyMobileRegPortal\EazyMobileRegPortal\bin\Debug\netcoreapp3.1\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\kadzitaye.m\Documents\Visual Studio 2019\Projects\eazymobileregistrationportal\EazyMobileRegPortal\EazyMobileRegPortal\bin\Debug\netcoreapp3.1\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\kadzitaye.m\Documents\Visual Studio 2019\Projects\eazymobileregistrationportal\EazyMobileRegPortal\EazyMobileRegPortal\bin\Debug\netcoreapp3.1\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\kadzitaye.m\Documents\Visual Studio 2019\Projects\eazymobileregistrationportal\EazyMobileRegPortal\EazyMobileRegPortal\bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\kadzitaye.m\Documents\Visual Studio 2019\Projects\eazymobileregistrationportal\EazyMobileRegPortal\EazyMobileRegPortal\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\kadzitaye.m\Documents\Visual Studio 2019\Projects\eazymobileregistrationportal\EazyMobileRegPortal\EazyMobileRegPortal\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\kadzitaye.m\Documents\Visual Studio 2019\Projects\eazymobileregistrationportal\EazyMobileRegPortal\EazyMobileRegPortal\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\Microsoft.Data.SqlClient.dll
+C:\Users\kadzitaye.m\Documents\Visual Studio 2019\Projects\eazymobileregistrationportal\EazyMobileRegPortal\EazyMobileRegPortal\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\Microsoft.Data.SqlClient.dll
+C:\Users\kadzitaye.m\Documents\Visual Studio 2019\Projects\eazymobileregistrationportal\EazyMobileRegPortal\EazyMobileRegPortal\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\sni.dll
+C:\Users\kadzitaye.m\Documents\Visual Studio 2019\Projects\eazymobileregistrationportal\EazyMobileRegPortal\EazyMobileRegPortal\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\sni.dll
+C:\Users\kadzitaye.m\Documents\Visual Studio 2019\Projects\eazymobileregistrationportal\EazyMobileRegPortal\EazyMobileRegPortal\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\sni.dll
+C:\Users\kadzitaye.m\Documents\Visual Studio 2019\Projects\eazymobileregistrationportal\EazyMobileRegPortal\EazyMobileRegPortal\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.0\System.Runtime.Caching.dll
+C:\Users\kadzitaye.m\Documents\Visual Studio 2019\Projects\eazymobileregistrationportal\EazyMobileRegPortal\EazyMobileRegPortal\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.0\System.Runtime.Caching.dll
+C:\Users\kadzitaye.m\Documents\Visual Studio 2019\Projects\eazymobileregistrationportal\EazyMobileRegPortal\EazyMobileRegPortal\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\kadzitaye.m\Documents\Visual Studio 2019\Projects\eazymobileregistrationportal\EazyMobileRegPortal\EazyMobileRegPortal\obj\Debug\netcoreapp3.1\RazorDeclaration\EazyMobileRegPortal.dll
+C:\Users\kadzitaye.m\Documents\Visual Studio 2019\Projects\eazymobileregistrationportal\EazyMobileRegPortal\EazyMobileRegPortal\obj\Debug\netcoreapp3.1\EazyMobileRegPortal.TagHelpers.input.cache
+C:\Users\kadzitaye.m\Documents\Visual Studio 2019\Projects\eazymobileregistrationportal\EazyMobileRegPortal\EazyMobileRegPortal\obj\Debug\netcoreapp3.1\EazyMobileRegPortal.TagHelpers.output.cache
+C:\Users\kadzitaye.m\Documents\Visual Studio 2019\Projects\eazymobileregistrationportal\EazyMobileRegPortal\EazyMobileRegPortal\obj\Debug\netcoreapp3.1\EazyMobileRegPortal.RazorCoreGenerate.cache
+C:\Users\kadzitaye.m\Documents\Visual Studio 2019\Projects\eazymobileregistrationportal\EazyMobileRegPortal\EazyMobileRegPortal\obj\Debug\netcoreapp3.1\Razor\App.razor.g.cs
+C:\Users\kadzitaye.m\Documents\Visual Studio 2019\Projects\eazymobileregistrationportal\EazyMobileRegPortal\EazyMobileRegPortal\obj\Debug\netcoreapp3.1\Razor\Pages\AccessDenied.razor.g.cs
+C:\Users\kadzitaye.m\Documents\Visual Studio 2019\Projects\eazymobileregistrationportal\EazyMobileRegPortal\EazyMobileRegPortal\obj\Debug\netcoreapp3.1\Razor\Pages\Checked.razor.g.cs
+C:\Users\kadzitaye.m\Documents\Visual Studio 2019\Projects\eazymobileregistrationportal\EazyMobileRegPortal\EazyMobileRegPortal\obj\Debug\netcoreapp3.1\Razor\Pages\CheckedApprovals.razor.g.cs
+C:\Users\kadzitaye.m\Documents\Visual Studio 2019\Projects\eazymobileregistrationportal\EazyMobileRegPortal\EazyMobileRegPortal\obj\Debug\netcoreapp3.1\Razor\Pages\DeniedCustomers.razor.g.cs
+C:\Users\kadzitaye.m\Documents\Visual Studio 2019\Projects\eazymobileregistrationportal\EazyMobileRegPortal\EazyMobileRegPortal\obj\Debug\netcoreapp3.1\Razor\Pages\Error.razor.g.cs
+C:\Users\kadzitaye.m\Documents\Visual Studio 2019\Projects\eazymobileregistrationportal\EazyMobileRegPortal\EazyMobileRegPortal\obj\Debug\netcoreapp3.1\Razor\Pages\Index.razor.g.cs
+C:\Users\kadzitaye.m\Documents\Visual Studio 2019\Projects\eazymobileregistrationportal\EazyMobileRegPortal\EazyMobileRegPortal\obj\Debug\netcoreapp3.1\Razor\Pages\OperationSuccessful.razor.g.cs
+C:\Users\kadzitaye.m\Documents\Visual Studio 2019\Projects\eazymobileregistrationportal\EazyMobileRegPortal\EazyMobileRegPortal\obj\Debug\netcoreapp3.1\Razor\Pages\Router.razor.g.cs
+C:\Users\kadzitaye.m\Documents\Visual Studio 2019\Projects\eazymobileregistrationportal\EazyMobileRegPortal\EazyMobileRegPortal\obj\Debug\netcoreapp3.1\Razor\Pages\SignIn.razor.g.cs
+C:\Users\kadzitaye.m\Documents\Visual Studio 2019\Projects\eazymobileregistrationportal\EazyMobileRegPortal\EazyMobileRegPortal\obj\Debug\netcoreapp3.1\Razor\Pages\Unchecked.razor.g.cs
+C:\Users\kadzitaye.m\Documents\Visual Studio 2019\Projects\eazymobileregistrationportal\EazyMobileRegPortal\EazyMobileRegPortal\obj\Debug\netcoreapp3.1\Razor\Pages\UncheckedApprovals.razor.g.cs
+C:\Users\kadzitaye.m\Documents\Visual Studio 2019\Projects\eazymobileregistrationportal\EazyMobileRegPortal\EazyMobileRegPortal\obj\Debug\netcoreapp3.1\Razor\Shared\MainLayout.razor.g.cs
+C:\Users\kadzitaye.m\Documents\Visual Studio 2019\Projects\eazymobileregistrationportal\EazyMobileRegPortal\EazyMobileRegPortal\obj\Debug\netcoreapp3.1\Razor\Shared\NavMenu.razor.g.cs
+C:\Users\kadzitaye.m\Documents\Visual Studio 2019\Projects\eazymobileregistrationportal\EazyMobileRegPortal\EazyMobileRegPortal\obj\Debug\netcoreapp3.1\Razor\_Imports.razor.g.cs
+C:\Users\kadzitaye.m\Documents\Visual Studio 2019\Projects\eazymobileregistrationportal\EazyMobileRegPortal\EazyMobileRegPortal\obj\Debug\netcoreapp3.1\Razor\Pages\_Host.cshtml.g.cs
+C:\Users\kadzitaye.m\Documents\Visual Studio 2019\Projects\eazymobileregistrationportal\EazyMobileRegPortal\EazyMobileRegPortal\obj\Debug\netcoreapp3.1\EazyMobileRegPortal.RazorAssemblyInfo.cache
+C:\Users\kadzitaye.m\Documents\Visual Studio 2019\Projects\eazymobileregistrationportal\EazyMobileRegPortal\EazyMobileRegPortal\obj\Debug\netcoreapp3.1\EazyMobileRegPortal.RazorAssemblyInfo.cs
+C:\Users\kadzitaye.m\Documents\Visual Studio 2019\Projects\eazymobileregistrationportal\EazyMobileRegPortal\EazyMobileRegPortal\obj\Debug\netcoreapp3.1\EazyMobileRegPortal.RazorTargetAssemblyInfo.cache
+C:\Users\kadzitaye.m\Documents\Visual Studio 2019\Projects\eazymobileregistrationportal\EazyMobileRegPortal\EazyMobileRegPortal\obj\Debug\netcoreapp3.1\EazyMobileRegPortal.RazorTargetAssemblyInfo.cs
+C:\Users\kadzitaye.m\Documents\Visual Studio 2019\Projects\eazymobileregistrationportal\EazyMobileRegPortal\EazyMobileRegPortal\obj\Debug\netcoreapp3.1\EazyMobileRegPortal.Views.pdb
+C:\Users\kadzitaye.m\Documents\Visual Studio 2019\Projects\eazymobileregistrationportal\EazyMobileRegPortal\EazyMobileRegPortal\obj\Debug\netcoreapp3.1\EazyMobileRegPortal.csproj.CopyComplete
+C:\Users\kadzitaye.m\Documents\Visual Studio 2019\Projects\eazymobileregistrationportal\EazyMobileRegPortal\EazyMobileRegPortal\obj\Debug\netcoreapp3.1\staticwebassets\EazyMobileRegPortal.StaticWebAssets.Manifest.cache
+C:\Users\kadzitaye.m\Documents\Visual Studio 2019\Projects\eazymobileregistrationportal\EazyMobileRegPortal\EazyMobileRegPortal\obj\Debug\netcoreapp3.1\staticwebassets\EazyMobileRegPortal.StaticWebAssets.xml
+C:\Users\kadzitaye.m\Documents\Visual Studio 2019\Projects\eazymobileregistrationportal\EazyMobileRegPortal\EazyMobileRegPortal\obj\Debug\netcoreapp3.1\EazyMobileRegPortal.dll
+C:\Users\kadzitaye.m\Documents\Visual Studio 2019\Projects\eazymobileregistrationportal\EazyMobileRegPortal\EazyMobileRegPortal\obj\Debug\netcoreapp3.1\EazyMobileRegPortal.pdb
+C:\Users\kadzitaye.m\Documents\Visual Studio 2019\Projects\eazymobileregistrationportal\EazyMobileRegPortal\EazyMobileRegPortal\obj\Debug\netcoreapp3.1\EazyMobileRegPortal.genruntimeconfig.cache
+C:\Users\kaunda.dum\Documents\Visual Studio 2019\Projects\EazyMobileRegistrationPortal\EazyMobileRegPortal\EazyMobileRegPortal\obj\Debug\netcoreapp3.1\RazorDeclaration\Pages\DeniedCustomers.razor.g.cs
+C:\Users\kaunda.dum\Documents\Visual Studio 2019\Projects\EazyMobileRegistrationPortal\EazyMobileRegPortal\EazyMobileRegPortal\obj\Debug\netcoreapp3.1\RazorDeclaration\Pages\OperationSuccessful.razor.g.cs
+C:\Users\kaunda.dum\Documents\Visual Studio 2019\Projects\EazyMobileRegistrationPortal\EazyMobileRegPortal\EazyMobileRegPortal\obj\Debug\netcoreapp3.1\RazorDeclaration\Pages\Router.razor.g.cs
+C:\Users\kaunda.dum\Documents\Visual Studio 2019\Projects\EazyMobileRegistrationPortal\EazyMobileRegPortal\EazyMobileRegPortal\obj\Debug\netcoreapp3.1\RazorDeclaration\Pages\SignIn.razor.g.cs
+C:\Users\kaunda.dum\Documents\Visual Studio 2019\Projects\EazyMobileRegistrationPortal\EazyMobileRegPortal\EazyMobileRegPortal\obj\Debug\netcoreapp3.1\Razor\Pages\DeniedCustomers.razor.g.cs
+C:\Users\kaunda.dum\Documents\Visual Studio 2019\Projects\EazyMobileRegistrationPortal\EazyMobileRegPortal\EazyMobileRegPortal\obj\Debug\netcoreapp3.1\Razor\Pages\OperationSuccessful.razor.g.cs
+C:\Users\kaunda.dum\Documents\Visual Studio 2019\Projects\EazyMobileRegistrationPortal\EazyMobileRegPortal\EazyMobileRegPortal\obj\Debug\netcoreapp3.1\Razor\Pages\Router.razor.g.cs
+C:\Users\kaunda.dum\Documents\Visual Studio 2019\Projects\EazyMobileRegistrationPortal\EazyMobileRegPortal\EazyMobileRegPortal\obj\Debug\netcoreapp3.1\Razor\Pages\SignIn.razor.g.cs

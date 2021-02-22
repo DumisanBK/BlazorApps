@@ -1,0 +1,80 @@
+﻿@page "/"
+@namespace EazyMobileRegPortal.Pages
+@addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>EazyMobileRegPortal</title>
+    <base href="~/" />
+
+    <link rel="stylesheet" href="css/bootstrap/bootstrap.min.css" />
+    <link href="css/site.css" rel="stylesheet" />
+    <link href="css/error.css" rel="stylesheet" />
+
+    <link rel="stylesheet" href="css/datatable/dataTables.bootstrap4.min.css" />
+    <link rel="stylesheet" href="css/datatable/responsive.bootstrap4.min.css" />
+</head>
+<body>
+    <app>
+        <component type="typeof(App)" render-mode="ServerPrerendered" />
+    </app>
+
+    <div class="hide">
+        <input type="hidden" id="urlKey" name="urlKey" />
+    </div>
+
+    <div id="blazor-error-ui">
+        <environment include="Staging,Production">
+            An error has occurred. This application may no longer respond until reloaded.
+        </environment>
+        <environment include="Development">
+            An unhandled exception has occurred. See browser dev tools for details.
+        </environment>
+        <a href="" class="reload">Reload</a>
+        <a class="dismiss">🗙</a>
+    </div>
+
+    <script src="_framework/blazor.server.js"></script>
+
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/datatable/jquery.dataTables.min.js"></script>
+    <script src="js/datatable/dataTables.bootstrap4.min.js"></script>
+    <script src="js/datatable/dataTables.responsive.min.js"></script>
+    <script src="js/datatable/responsive.bootstrap4.min.js"></script>
+
+    <script>
+        function TestDataTablesAdd(table) {
+            $(document).ready(function () {
+                $(table).DataTable();
+            });
+        }
+
+        function TestDataTablesRemove(table) {
+            $(document).ready(function () {
+                $(table).DataTable().destroy();
+            });
+        }
+
+        function BufferUrlKey(urlKey) {
+            $(document).ready(function () {
+                $("#urlKey").val(urlKey);
+            });
+        }
+
+        function GetUrlKey() {
+            var urlKey = $("#urlKey").val();
+
+            return urlKey;
+        }
+
+    </script>
+
+</body>
+</html>
